@@ -169,20 +169,24 @@ quizVisnov.prototype.stage_brankas = function(show_feedback_visnov = "", benar =
     console.log(show_feedback_visnov);
     if(show_feedback_visnov == ""){
         let ldata = game.scorm_helper.getLastGame("game_slide_"+$this.current_settings["slide"]);
-        if(ldata["answer"].length == $this.question_datas.length && ldata["answer"].indexOf(0) == -1){
-            $this.nextSoalAtLast();
-        }else{
-            $this.setTutorial();
+        console.log(ldata);
+        if(ldata["answer"] != undefined){
+            if(ldata["answer"].length == $this.question_datas.length && ldata["answer"].indexOf(0) == -1){
+                $this.nextSoalAtLast();
+                return;
+            }
+        }
 
-            for (var i = 0; i < $this.question_datas.length; i++) {
-                if($this.game_data["curr_soal_next"] == undefined){
-                    if(i == 0){
-                        $(".stage_b:nth-child("+1+")").addClass("active");
-                    }
-                }else{
-                    if(i == $this.game_data["curr_soal_next"]){
-                        $(".stage_b:nth-child("+(i+1)+")").addClass("active");
-                    }
+        $this.setTutorial();
+
+        for (var i = 0; i < $this.question_datas.length; i++) {
+            if($this.game_data["curr_soal_next"] == undefined){
+                if(i == 0){
+                    $(".stage_b:nth-child("+1+")").addClass("active");
+                }
+            }else{
+                if(i == $this.game_data["curr_soal_next"]){
+                    $(".stage_b:nth-child("+(i+1)+")").addClass("active");
                 }
             }
         }
@@ -228,7 +232,7 @@ quizVisnov.prototype.stage_brankas = function(show_feedback_visnov = "", benar =
                 if($this.question_datas[curr_soal]["list_feedback_slider"] != undefined){
                     $this.setTutorialSlider();
                 }
-            },3000);
+            },2000);
         });
     }
 

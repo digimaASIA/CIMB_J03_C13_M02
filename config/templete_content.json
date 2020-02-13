@@ -48,37 +48,37 @@
 			"class":"QuizSwipeCard"
 		},
 		{
-			"slide":11,
+			"slide":9,
 			"file":"html/result_stage.html",
 			"class":"ResultStage"
 		},
 		{
+			"slide":10,
+			"file":"html/sliderfullscreen.html",
+			"class":"SliderFullScreen"
+		},
+		{
+			"slide":11,
+			"file":"html/sliderfullscreen.html",
+			"class":"SliderFullScreen"
+		},
+		{
 			"slide":12,
-			"file":"html/sliderfullscreen.html",
-			"class":"SliderFullScreen"
-		},
-		{
-			"slide":13,
-			"file":"html/sliderfullscreen.html",
-			"class":"SliderFullScreen"
-		},
-		{
-			"slide":14,
 			"file":"html/quiz_visnov.html",
 			"class":"quizVisnov"
 		},
 		{
-			"slide":15,
+			"slide":13,
 			"file":"html/result_stage.html",
 			"class":"ResultStage"
 		},
 		{
-			"slide":16,
+			"slide":14,
 			"file":"html/sliderfullscreen.html",
 			"class":"SliderFullScreen"
 		},
 		{
-			"slide":17,
+			"slide":15,
 			"file":"html/result_game.html",
 			"class":"ResultGame"
 		}

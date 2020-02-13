@@ -18,10 +18,10 @@
 			{
 				"type":"mc",
 				"text":"",
-				"label_question_text":"Kamu",
-				"label_question_position":"right",
+				"label_question_text":"Max",
+				"label_question_position":"center",
 				"label_name_question_style":{
-					"background": "#2AB2E5",
+					"background": "#707070",
 				    "border-radius": "24px",
 				    "color": "white",
 				    "border": "1px solid white",
@@ -31,7 +31,7 @@
 				"label_question_img":"alert.png",
 				"suara_batin":0,
 				"label_name_icon":"",
-				"question":"\"Sekarang, nyalakan mesin mobil ini menggunakan pemahamanmu tentang AI!\"",
+				"question":"\"Lalu, komitmen pimpinan sebaiknya diperlihatkan dalam bentuk apa ya?\"",
 				"question_video":"MC_CIMB_3D_1313.02_VisNov_03_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
@@ -41,8 +41,8 @@
 				},
 				"pilihan":
 				[
-					{"index":0,"text":"Gunakan Voice Recognition"},
-					{"index":1,"text":"Gunakan Start Stop Engine"}
+					{"index":0,"text":"Instruksi"},
+					{"index":1,"text":"Contoh dan teladan"}
 				],
 				"box_style_pilihan":{
 					"background": "white",
@@ -51,7 +51,7 @@
 					"color": "#111",
 					"border":"1px solid #8BB2E6"
 				},
-				"jawaban":[0],
+				"jawaban":[1],
 				"background_image":"",
 				"audio":"",
 				"label_name_img":"",
@@ -62,10 +62,10 @@
 				[
 					{
 					 	"index":0,
-					 	"text_2":"Jarvis",
-					 	"text_2_position":"left",
+					 	"text_2":"Max",
+					 	"text_2_position":"center",
 					 	"label_name_img":"",
-					 	"text":"\"Hai, Max. Kamu sekarang sedang berada di dalam mobil <i>auto driving</i> yang menggunakan teknologi AI atau <i>Artificial Intelligence.</i>\"",
+					 	"text":"\"Transformasi membutuhkan komitmen para pelakunya, karena tidak mudah mempertahankan semangat individu dan kolaborasi.\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -77,7 +77,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -88,10 +88,10 @@
 					},
 					{
 					 	"index":1,
-					 	"text_2":"Jarvis",
-					 	"text_2_position":"left",
+					 	"text_2":"Max",
+					 	"text_2_position":"center",
 					 	"label_name_img":"",
-					 	"text":"\"Sekarang, nyalakan mesin mobil ini menggunakan pemahamanmu tentang AI untuk mengendarainya!\"",
+					 	"text":"\"Apalagi untuk para pimpinan. Mereka akan cukup berperan menentukan apakah semangat transformasi akan tetap ada.\"",
 					 	"img_character":[1],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -103,7 +103,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -118,17 +118,17 @@
 					{
 						"title":"",
 						"image":"01-a.png",
-						"desc":"<b><i>Swipe</i> kanan</b> untuk mengidentifikasi contoh risiko yang <b>termasuk</b> dapat diasuransikan."
+						"desc":"Pimpinan dan manajemen perusahaan harus berhasil meyakinkan seluruh pihak untuk bertransformasi bersama, dan senantiasa memberikan motivasi kepada seluruh pemangku kepentingan untuk bergerak bersama."
 					},
 					{
 						"title":"",
 						"image":"01-b.png",
-						"desc":"<b><i>Swipe</i> kiri</b> untuk mengidentifikasi contoh risiko yang <b>tidak termasuk</b> dapat diasuransikan."
+						"desc":"Komitmen diperlihatkan dengan memberikan contoh dan teladan dalam melakukan transformasi."
 					},
 					{
 						"title":"",
 						"image":"01-c.png",
-						"desc":"Penuhi <b>parameter</b> untuk <br>menyelesaikan setiap langkah."
+						"desc":"Komunikasi efektif yang egalitarian, inklusif, dan non-birokratis terbukti berhasil dalam membangkitkan dukungan para karyawan dan staf perusahaan."
 					}
 				]
 			},
@@ -136,7 +136,7 @@
 				"type":"mc",
 				"text":"",
 				"label_question_text":"Kamu",
-				"label_question_position":"right",
+				"label_question_position":"center",
 				"label_name_question_style":{
 					"background": "#2AB2E5",
 				    "border-radius": "24px",
@@ -148,7 +148,7 @@
 				"label_question_img":"alert.png",
 				"suara_batin":0,
 				"label_name_icon":"",
-				"question":"\"Oh, jadi kalau aku simpulkan, AI itu semacam kecerdasan buatan yang diprogram dengan kemampuan...\"",
+				"question":"\"Yang harus berperan dalam transformasi digital adalah...\"",
 				"question_video":"MC_CIMB_3D_1313.02_VisNov_06_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
@@ -158,8 +158,8 @@
 				},
 				"pilihan":
 				[
-					{"index":0,"text":"Untuk berpikir dan meniru tindakan manusia"},
-					{"index":1,"text":"Bergerak otomatis dengan jaringan internet"}
+					{"index":0,"text":"Manajemen perusahaan dan divisi transformasi"},
+					{"index":1,"text":"Setiap individu dalam perusahaan"}
 				],
 				"box_style_pilihan":{
 					"background": "white",
@@ -168,7 +168,7 @@
 					"color": "#111",
 					"border":"1px solid #8BB2E6"
 				},
-				"jawaban":[0],
+				"jawaban":[1],
 				"background_image":"",
 				"audio":"",
 				"label_name_img":"",
@@ -179,10 +179,10 @@
 				[
 					{
 					 	"index":0,
-					 	"text_2":"Jarvis",
+					 	"text_2":"Max",
 					 	"text_2_position":"left",
 					 	"label_name_img":"",
-					 	"text":"\"Dengan AI, mobil ini dapat berjalan tanpa perlu dikemudikan karena dilengkapi berbagai sensor yang dapat mencegah kecelakaan.\"",
+					 	"text":"\"Pembangunan transformasi digital tak hanya milik divisi transformasi ataupun riset.\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -194,7 +194,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -205,10 +205,10 @@
 					},
 					{
 					 	"index":1,
-					 	"text_2":"Jarvis",
-					 	"text_2_position":"left",
+					 	"text_2":"Max",
+					 	"text_2_position":"center",
 					 	"label_name_img":"",
-					 	"text":"\"Dengan AI, mobil ini dapat berjalan tanpa perlu dikemudikan karena dilengkapi berbagai sensor yang dapat mencegah kecelakaan.\"",
+					 	"text":"\"Apakah divisi marketing harus ambil bagian? apakah divisi operasional harus ambil bagian?\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -220,7 +220,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -234,28 +234,28 @@
 				"list_feedback_slider":[
 					{
 						"title":"",
-						"image":"01-a.png",
-						"desc":"<b><i>Swipe</i> kanan</b> untuk mengidentifikasi contoh risiko yang <b>termasuk</b> dapat diasuransikan."
+						"image":"02-a.png",
+						"desc":"Segenap karyawan, staf, dan individu dalam perusahaan bersemangat dalam melakukan transformasi karena adanya keinginan untuk mewujudkan mimpi bersama (shared dream)."
 					},
 					{
 						"title":"",
-						"image":"01-b.png",
-						"desc":"<b><i>Swipe</i> kiri</b> untuk mengidentifikasi contoh risiko yang <b>tidak termasuk</b> dapat diasuransikan."
+						"image":"02-b.png",
+						"desc":"Keinginan untuk bekerjasama secara kolektif adalah kunci dalam melakukan transformasi (jika tidak dilakukan, seluruh individu akan rugi)."
 					},
 					{
 						"title":"",
-						"image":"01-c.png",
-						"desc":"Penuhi <b>parameter</b> untuk <br>menyelesaikan setiap langkah."
+						"image":"02-c.png",
+						"desc":"Acara-acara berkumpul bersama seperti outbound disarankan untuk dilakukan untuk menggalang semangat kebersamaan bertransformasi."
 					}
 				]
 			},
 			{
 				"type":"mc",
 				"text":"",
-				"label_question_text":"Kamu",
-				"label_question_position":"right",
+				"label_question_text":"Max",
+				"label_question_position":"center",
 				"label_name_question_style":{
-					"background": "#2AB2E5",
+					"background": "#707070",
 				    "border-radius": "24px",
 				    "color": "white",
 				    "border": "1px solid white",
@@ -265,7 +265,7 @@
 				"label_question_img":"alert.png",
 				"suara_batin":0,
 				"label_name_icon":"",
-				"question":"\"Setahuku, AI bekerja dengan cara ... melalui mesin yang diprogram dengan algoritma komputer.\"",
+				"question":"\"Kira-kira, apa ya dokumen yang bisa memuat rencana kerja dan mensosialisasikan target transformasi dengan jelas?\"",
 				"question_video":"MC_CIMB_3D_1313.02_VisNov_09_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
@@ -275,8 +275,8 @@
 				},
 				"pilihan":
 				[
-					{"index":0,"text":"Memproses tindakan untuk tujuan tertentu"},
-					{"index":1,"text":"Sensor / perangkat yang terhubung ke <i>cloud</i>"}
+					{"index":0,"text":"KPI"},
+					{"index":1,"text":"Roadmap"}
 				],
 				"box_style_pilihan":{
 					"background": "white",
@@ -285,7 +285,7 @@
 					"color": "#111",
 					"border":"1px solid #8BB2E6"
 				},
-				"jawaban":[0],
+				"jawaban":[1],
 				"background_image":"",
 				"audio":"",
 				"label_name_img":"",
@@ -296,10 +296,10 @@
 				[
 					{
 					 	"index":0,
-					 	"text_2":"Jarvis",
+					 	"text_2":"Max",
 					 	"text_2_position":"left",
 					 	"label_name_img":"",
-					 	"text":"\"Menurutmu, bagaimana cara kerja AI sebenarnya, Max?\"",
+					 	"text":"\"Saat transformasi digital sudah mulai mendapatkan perhatian maka perlu dibuat rencana kerja untuk menjalankannya.\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -311,7 +311,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -322,10 +322,10 @@
 					},
 					{
 					 	"index":1,
-					 	"text_2":"Jarvis",
-					 	"text_2_position":"left",
+					 	"text_2":"Max",
+					 	"text_2_position":"center",
 					 	"label_name_img":"",
-					 	"text":"\"Menurutmu, bagaimana cara kerja AI sebenarnya, Max?\"",
+					 	"text":"\"Rencana tersebut juga bertujuan agar target pengembangan tersosialisasikan dengan baik.\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -337,7 +337,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -351,25 +351,15 @@
 				"list_feedback_slider":[
 					{
 						"title":"",
-						"image":"01-a.png",
-						"desc":"<b><i>Swipe</i> kanan</b> untuk mengidentifikasi contoh risiko yang <b>termasuk</b> dapat diasuransikan."
-					},
-					{
-						"title":"",
-						"image":"01-b.png",
-						"desc":"<b><i>Swipe</i> kiri</b> untuk mengidentifikasi contoh risiko yang <b>tidak termasuk</b> dapat diasuransikan."
-					},
-					{
-						"title":"",
-						"image":"01-c.png",
-						"desc":"Penuhi <b>parameter</b> untuk <br>menyelesaikan setiap langkah."
+						"image":"03.png",
+						"desc":"Perusahaan perlu menggambarkan roadmap perjalanan transformasi yang jelas dan mudah dibaca serta dipahami, yang melibatkan seluruh pemangku kepentingan agar ada rasa memiliki. <br>Target pencapaian secara ruang lingkup, durasi, dan Indikator keberhasilan pencapaian target pada roadmap jelas terlihat dan dapat diukur"
 					}
 				]
 			},
 			{
 				"type":"mc",
 				"text":"",
-				"label_question_text":"Kamu",
+				"label_question_text":"Learner",
 				"label_question_position":"right",
 				"label_name_question_style":{
 					"background": "#2AB2E5",
@@ -382,7 +372,7 @@
 				"label_question_img":"alert.png",
 				"suara_batin":0,
 				"label_name_icon":"",
-				"question":"\"Sekarang, nyalakan mesin mobil ini menggunakan pemahamanmu tentang AI!\"",
+				"question":"\"Bekal yang harus dipunyai setiap individu dalam melaksanakan transformasi adalah...\"",
 				"question_video":"MC_CIMB_3D_1313.02_VisNov_12_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
@@ -392,8 +382,8 @@
 				},
 				"pilihan":
 				[
-					{"index":0,"text":"Gunakan Voice Recognition"},
-					{"index":1,"text":"Gunakan Start Stop Engine"}
+					{"index":0,"text":"Tanggung jawab dan wewenang"},
+					{"index":1,"text":"Pengetahuan dan wawasan transformasi"}
 				],
 				"box_style_pilihan":{
 					"background": "white",
@@ -402,7 +392,7 @@
 					"color": "#111",
 					"border":"1px solid #8BB2E6"
 				},
-				"jawaban":[0],
+				"jawaban":[1],
 				"background_image":"",
 				"audio":"",
 				"label_name_img":"",
@@ -413,10 +403,10 @@
 				[
 					{
 					 	"index":0,
-					 	"text_2":"Jarvis",
+					 	"text_2":"Max",
 					 	"text_2_position":"left",
 					 	"label_name_img":"",
-					 	"text":"\"Hai, Max. Kamu sekarang sedang berada di dalam mobil <i>auto driving</i> yang menggunakan teknologi AI atau <i>Artificial Intelligence.</i>\"",
+					 	"text":"\"Perusahaan harus menyampaikan arah transformasi digital dengan jelas kepada setiap individu.\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -428,7 +418,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -439,10 +429,10 @@
 					},
 					{
 					 	"index":1,
-					 	"text_2":"Jarvis",
-					 	"text_2_position":"left",
+					 	"text_2":"Max",
+					 	"text_2_position":"center",
 					 	"label_name_img":"",
-					 	"text":"\"Sekarang, nyalakan mesin mobil ini menggunakan pemahamanmu tentang AI untuk mengendarainya!\"",
+					 	"text":"\"Jika perlu memberikan mentoring secara berkala. Jadi menurutmu apa bekal kita sebagai individu dalam sebuah organisasi untuk melakukan transformasi?\"",
 					 	"img_character":[1],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -468,25 +458,25 @@
 				"list_feedback_slider":[
 					{
 						"title":"",
-						"image":"01-a.png",
-						"desc":"<b><i>Swipe</i> kanan</b> untuk mengidentifikasi contoh risiko yang <b>termasuk</b> dapat diasuransikan."
+						"image":"04-a.png",
+						"desc":"Segenap individu perusahaan harus dibekali dengan pengetahuan, wawasan, dan keterampilan yang cukup untuk menjalankan transformasi"
 					},
 					{
 						"title":"",
-						"image":"01-b.png",
-						"desc":"<b><i>Swipe</i> kiri</b> untuk mengidentifikasi contoh risiko yang <b>tidak termasuk</b> dapat diasuransikan."
+						"image":"04-b.png",
+						"desc":"Dengan pendampingan oleh para mentor dapat membantu pihak-pihak yang mengalami kesulitan dalam membangun budaya transformasi."
 					},
 					{
 						"title":"",
-						"image":"01-c.png",
-						"desc":"Penuhi <b>parameter</b> untuk <br>menyelesaikan setiap langkah."
+						"image":"04-c.png",
+						"desc":"Sosialisasi, edukasi, dan pelatihan yang cukup perlu dilakukan secara terus-menerus bagi seluruh individu dan pemangku kepentingan"
 					}
 				]
 			},
 			{
 				"type":"mc",
 				"text":"",
-				"label_question_text":"Kamu",
+				"label_question_text":"Learner",
 				"label_question_position":"right",
 				"label_name_question_style":{
 					"background": "#2AB2E5",
@@ -499,7 +489,7 @@
 				"label_question_img":"alert.png",
 				"suara_batin":0,
 				"label_name_icon":"",
-				"question":"\"Oh, jadi kalau aku simpulkan, AI itu semacam kecerdasan buatan yang diprogram dengan kemampuan...\"",
+				"question":"\"Dan juga sumber daya yang tak berwujud atau intangible yang tak kalah penting. Yaitu..\"",
 				"question_video":"MC_CIMB_3D_1313.02_VisNov_15_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
@@ -509,8 +499,8 @@
 				},
 				"pilihan":
 				[
-					{"index":0,"text":"Untuk berpikir dan meniru tindakan manusia"},
-					{"index":1,"text":"Bergerak otomatis dengan jaringan internet"}
+					{"index":0,"text":"Data"},
+					{"index":1,"text":"Komitmen"}
 				],
 				"box_style_pilihan":{
 					"background": "white",
@@ -519,7 +509,7 @@
 					"color": "#111",
 					"border":"1px solid #8BB2E6"
 				},
-				"jawaban":[0],
+				"jawaban":[1],
 				"background_image":"",
 				"audio":"",
 				"label_name_img":"",
@@ -530,10 +520,10 @@
 				[
 					{
 					 	"index":0,
-					 	"text_2":"Jarvis",
+					 	"text_2":"Max",
 					 	"text_2_position":"left",
 					 	"label_name_img":"",
-					 	"text":"\"Dengan AI, mobil ini dapat berjalan tanpa perlu dikemudikan karena dilengkapi berbagai sensor yang dapat mencegah kecelakaan.\"",
+					 	"text":"\"Apakah kalian tahu sumber daya yang dibutuhkan untuk transformasi digital?\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -545,7 +535,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -557,9 +547,9 @@
 					{
 					 	"index":1,
 					 	"text_2":"Jarvis",
-					 	"text_2_position":"left",
+					 	"text_2_position":"center",
 					 	"label_name_img":"",
-					 	"text":"\"Dengan AI, mobil ini dapat berjalan tanpa perlu dikemudikan karena dilengkapi berbagai sensor yang dapat mencegah kecelakaan.\"",
+					 	"text":"\"Tentu saja. Sarana prasarana dan infrastruktur diperlukan agar transformasi dapat berjalan.\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -585,25 +575,25 @@
 				"list_feedback_slider":[
 					{
 						"title":"",
-						"image":"01-a.png",
-						"desc":"<b><i>Swipe</i> kanan</b> untuk mengidentifikasi contoh risiko yang <b>termasuk</b> dapat diasuransikan."
+						"image":"05-a.png",
+						"desc":"Perusahaan perlu menyediakan berbagai sumber daya yang dibutuhkan untuk melakukan transformasi, antara lain: finansial, teknologi, fasilitas, sarana prasarana, dan lain sebagainya"
 					},
 					{
 						"title":"",
-						"image":"01-b.png",
-						"desc":"<b><i>Swipe</i> kiri</b> untuk mengidentifikasi contoh risiko yang <b>tidak termasuk</b> dapat diasuransikan."
+						"image":"05-b.png",
+						"desc":"Disamping itu, sumber daya intangible lainnya yang tak ternilai harganya adalah waktu, informasi, dan komitmen"
 					},
 					{
 						"title":"",
-						"image":"01-c.png",
-						"desc":"Penuhi <b>parameter</b> untuk <br>menyelesaikan setiap langkah."
+						"image":"05-c.png",
+						"desc":"Dalam sejumlah situasi, perlu ditanamkan investasi baru untuk mensukseskan agenda transformasi"
 					}
 				]
 			},
 			{
 				"type":"mc",
 				"text":"",
-				"label_question_text":"Kamu",
+				"label_question_text":"Learner",
 				"label_question_position":"right",
 				"label_name_question_style":{
 					"background": "#2AB2E5",
@@ -616,7 +606,7 @@
 				"label_question_img":"alert.png",
 				"suara_batin":0,
 				"label_name_icon":"",
-				"question":"\"Setahuku, AI bekerja dengan cara ... melalui mesin yang diprogram dengan algoritma komputer.\"",
+				"question":"\"Untuk memotivasi kami dan setiap individu untuk bergerak dalam jalannya transformasi, perusahaan perlu memberikan ...\"",
 				"question_video":"MC_CIMB_3D_1313.02_VisNov_18_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
@@ -626,8 +616,8 @@
 				},
 				"pilihan":
 				[
-					{"index":0,"text":"Memproses tindakan untuk tujuan tertentu"},
-					{"index":1,"text":"Sensor / perangkat yang terhubung ke <i>cloud</i>"}
+					{"index":0,"text":"Ruang persaingan"},
+					{"index":1,"text":"<i>Recognition</i> (Penghargaan)"}
 				],
 				"box_style_pilihan":{
 					"background": "white",
@@ -636,7 +626,7 @@
 					"color": "#111",
 					"border":"1px solid #8BB2E6"
 				},
-				"jawaban":[0],
+				"jawaban":[1],
 				"background_image":"",
 				"audio":"",
 				"label_name_img":"",
@@ -647,10 +637,10 @@
 				[
 					{
 					 	"index":0,
-					 	"text_2":"Jarvis",
+					 	"text_2":"Max",
 					 	"text_2_position":"left",
 					 	"label_name_img":"",
-					 	"text":"\"Menurutmu, bagaimana cara kerja AI sebenarnya, Max?\"",
+					 	"text":"\"Apakah kalian ingin lebih termotivasi?\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -662,7 +652,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -674,9 +664,9 @@
 					{
 					 	"index":1,
 					 	"text_2":"Jarvis",
-					 	"text_2_position":"left",
+					 	"text_2_position":"Max",
 					 	"label_name_img":"",
-					 	"text":"\"Menurutmu, bagaimana cara kerja AI sebenarnya, Max?\"",
+					 	"text":"\"Apa yang bisa membuat kalian termotivasi?\"",
 					 	"img_character":[0],
 					 	"audio":"",
 					 	"suara_batin":0,
@@ -688,7 +678,7 @@
 							"border":"1px solid #8BB2E6"
 					 	},
 					 	"label_name_style":{
-							"background": "#2AB2E5",
+							"background": "#707070",
 						    "border-radius": "15px",
 						    "color": "white",
 						    "border": "1px solid white",
@@ -702,18 +692,8 @@
 				"list_feedback_slider":[
 					{
 						"title":"",
-						"image":"01-a.png",
-						"desc":"<b><i>Swipe</i> kanan</b> untuk mengidentifikasi contoh risiko yang <b>termasuk</b> dapat diasuransikan."
-					},
-					{
-						"title":"",
-						"image":"01-b.png",
-						"desc":"<b><i>Swipe</i> kiri</b> untuk mengidentifikasi contoh risiko yang <b>tidak termasuk</b> dapat diasuransikan."
-					},
-					{
-						"title":"",
-						"image":"01-c.png",
-						"desc":"Penuhi <b>parameter</b> untuk <br>menyelesaikan setiap langkah."
+						"image":"06.png",
+						"desc":"Motivasi untuk membuat individu bergerak dan senang melakukannya dapat diperoleh melalui, antara lain:<br>- Ruang gerak untuk berkreasi dan mengekspresikan ide-ide. <br>- Public recognition dan testimoni untuk ide-ide yang berhasil diimplementasikan.<br>- Dipercaya untuk menerima tanggung jawab yang lebih besar.<br>- Kesempatan untuk mengembangkan diri & karir dalam perusahaan."
 					}
 				]
 			}

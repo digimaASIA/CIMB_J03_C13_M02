@@ -1,0 +1,20 @@
+{
+	"score":true,
+	"win":{
+		"ribbon":"congrat.png",
+		"background":"MC_CIMB_3D_1313.02_ClearStage_v.0.0.0.2.mp4",
+		"description":{
+			"text":"Selamat, kamu telah menyelesaikan stage Kunci Keberhasilan Transformasi Digital.",
+			"css":{
+				"color":"#000",
+				"background":"#FFF",
+				"border":"solid 1px #8BB2E6",
+				"border-radius":"12px"
+			}
+		},
+		"score_css":{
+			"color":"#000",
+			"background":"#FFF"
+		}
+	}
+}
