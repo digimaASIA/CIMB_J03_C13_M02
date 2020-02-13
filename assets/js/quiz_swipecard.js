@@ -118,6 +118,9 @@ QuizSwipeCard.prototype.setCard = function() {
 	$this = this;
 	arr_temp = [];
 	arr_rand = [];
+	if($(".cardparent").hasClass("slick-initialized")){
+		$(".cardparent").slick("unslick");
+	}
 	$(".cardparent").html("");
 	$(".level_live_wrapper p").html("Tahap "+($this.curr_soal+1));
 	for (i = 0; i < $this.list_card[$this.list_question[$this.curr_soal]]["list_card"].length; i++) {
@@ -134,9 +137,6 @@ QuizSwipeCard.prototype.setCard = function() {
 		$clone.find("img").attr("src","assets/image/swipe_card/"+$this.list_card[$this.list_question[$this.curr_soal]]["list_card"][arr_rand[i]]["image"]);
 		$clone.find("p").html($this.list_card[$this.list_question[$this.curr_soal]]["list_card"][arr_rand[i]]["text"]);
 		$(".cardparent").append($clone);
-	}
-	if($(".cardparent").hasClass("slick-initialized")){
-		$(".cardparent").slick("unslick");
 	}
 	$(".cardparent").slick({
 		dots: false,
