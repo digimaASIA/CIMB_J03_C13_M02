@@ -118,8 +118,7 @@ quizVisnov.prototype.init = function(current_settings) {
                 }
             }
         }else{
-            $this.setTutorial();
-            // $this.stage_brankas();
+            $this.stage_brankas();
         }
     },'json');
 };
@@ -169,14 +168,21 @@ quizVisnov.prototype.stage_brankas = function(show_feedback_visnov = "", benar =
     //set stage n dengan addClass active
     console.log(show_feedback_visnov);
     if(show_feedback_visnov == ""){
-        for (var i = 0; i < $this.question_datas.length; i++) {
-            if($this.game_data["curr_soal_next"] == undefined){
-                if(i == 0){
-                    $(".stage_b:nth-child("+1+")").addClass("active");
-                }
-            }else{
-                if(i == $this.game_data["curr_soal_next"]){
-                    $(".stage_b:nth-child("+(i+1)+")").addClass("active");
+        let ldata = game.scorm_helper.getLastGame("game_slide_"+$this.current_settings["slide"]);
+        if(ldata["answer"].length == $this.question_datas.length && ldata["answer"].indexOf(0) == -1){
+            $this.nextSoalAtLast();
+        }else{
+            $this.setTutorial();
+
+            for (var i = 0; i < $this.question_datas.length; i++) {
+                if($this.game_data["curr_soal_next"] == undefined){
+                    if(i == 0){
+                        $(".stage_b:nth-child("+1+")").addClass("active");
+                    }
+                }else{
+                    if(i == $this.game_data["curr_soal_next"]){
+                        $(".stage_b:nth-child("+(i+1)+")").addClass("active");
+                    }
                 }
             }
         }
@@ -995,9 +1001,6 @@ quizVisnov.prototype.cekJawaban = function($clone,$type) {
         $this.last_score = last_score;
         $this.game_data["last_score"] = $this.last_score;
 
-        //call function set progress bar
-        game.setProgresBar();
-
         //set answer game_slide
         let ldata = game.scorm_helper.getLastGame("game_slide_"+$this.current_settings["slide"]);
         console.log(ldata);
@@ -1089,6 +1092,10 @@ quizVisnov.prototype.cekJawaban = function($clone,$type) {
 
         //setting game_data di scorm
         game.scorm_helper.setSingleData("game_data",$this.game_data);
+
+
+        //call function set progress bar
+        game.setProgresBar();
     },800);
 };
 
@@ -3044,10 +3051,10 @@ quizVisnov.prototype.setTutorial = function() {
             game.show_tutorial_visnov = 1;
             $("#tutorial").modal('hide');
 
-            $this.stage_brankas();
+            // $this.stage_brankas();
         });
     }else{
-        $this.stage_brankas();
+        // $this.stage_brankas();
     }
 };
 

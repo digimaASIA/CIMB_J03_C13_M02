@@ -26,6 +26,9 @@ var Audio = function(){
 	this.audioGesture = document.createElement('audio');
     this.audioGesture.setAttribute('src', 'assets/audio/Points1.wav');
 
+    this.audioNiceJob = document.createElement('audio');
+    this.audioNiceJob.setAttribute('src', 'assets/audio/niceJob.mp3');
+
     this.audio_dynamic = function(src){
 		console.log(src);
 		this.audioDynamic = document.createElement('audio');

@@ -58,26 +58,26 @@ var ScormHelper = function(){
 		}
 	}catch(e){
 		$this.ldata = {};
-		$this.ldata = {
-			"curr_slide":6,
+		// $this.ldata = {
+		// 	"curr_slide":13,
 		// 	"quiz":[
-		// 		{"index":"game_slide_12","answer":[1, 1, 1, 1, 1, 0],"list_question":[0, 1, 2, 3, 4, 5],"start_date":"12 Februari 2020 22:28:4","end_date":"12 Februari 2020 22:28:59","is_complete":true}
+		// 		{"index":"game_slide_13","answer":[1, 1, 1, 1, 1, 1],"list_question":[0, 1, 2, 3, 4, 5],"start_date":"12 Februari 2020 22:28:4","end_date":"12 Februari 2020 22:28:59","is_complete":true}
 		// 	],
-			"game_data":{
-				"total_stage": 2,
-				"curr_step":1,
-				// "selected_stage": 2,
-				// "total_soal_current_slide": 6,
-				// "curr_soal": 0,
-				// "show_feedback_visnov": 1,
-				// "curr_soal_next": 6,
-				// "last_score": 1,
-				// "total_answer_true": undefined,
-				"complete_stage":[1],
-				"failed_stage":[]
-			}
-		};
-		$this.curr_slide = $this.ldata["curr_slide"];
+		// 	"game_data":{
+		// 		"total_stage": 2,
+		// 		"curr_step":1,
+		// 		"selected_stage": 2,
+		// 		// "total_soal_current_slide": 6,
+		// 		"curr_soal": 0,
+		// 		// "show_feedback_visnov": 1,
+		// 		"curr_soal_next": 5,
+		// 		// "last_score": 1,
+		// 		// "total_answer_true": undefined,
+		// 		"complete_stage":[1],
+		// 		"failed_stage":[]
+		// 	}
+		// };
+		// $this.curr_slide = $this.ldata["curr_slide"];
 		console.log($this.ldata);
 	}
 }
@@ -368,6 +368,8 @@ ScormHelper.prototype.getQuizResult = function(arrSlide) {
 	var result = [];
 	result["score"]=0;
 	result["total_soal"]=0;
+	console.log(arr);
+	// console.log(arr[0]["answer"]);
 	console.log(arrSlide);
 	if(arr){
 		for (var i = 0; i < arr.length; i++) {
@@ -386,7 +388,11 @@ ScormHelper.prototype.getQuizResult = function(arrSlide) {
 			}
 			if(cek == 1){
 				result["total_soal"] = parseInt(result["total_soal"])+arr[i]["list_question"].length;	
+				console.log(arr[i]);
+				console.log(arr[i]["answer"]);
+				console.log(arr[i]["answer"].length);
 				for (var j = 0; j < arr[i]["answer"].length; j++) {
+					console.log(arr[i]["answer"][j] +" - 1");
 					if(arr[i]["answer"][j]==1){
 						result["score"] = parseInt(result["score"])+1;
 					}

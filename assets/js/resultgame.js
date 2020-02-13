@@ -58,7 +58,7 @@ ResultGame.prototype.setResult = function() {
 		game.audio.audioMenang.play();
 		game.scorm_helper.setStatus("passed");
 		//$(".result_wrapper").css("background","url(assets/image/result/"+$this.win["background"]+") no-repeat center / cover");
-		$(".result_wrapper").find("source").attr("src","assets/image/result/"+$this.perfect["background"]);
+		$(".result_wrapper").find("source").attr("src","assets/video/result/"+$this.perfect["background"]);
 		$("#video")[0].load();
 		$interval = setInterval(function(){
 			if($("#video")[0].readyState == 4){
@@ -112,7 +112,7 @@ ResultGame.prototype.setResult = function() {
 		game.scorm_helper.setStatus("passed");
 		game.scorm_helper.setSingleData("restart",true);
 		//$(".result_wrapper").css("background","url(assets/image/result/"+$this.win["background"]+") no-repeat center / cover");
-		$(".result_wrapper").find("source").attr("src","assets/image/result/"+$this.win["background"]);
+		$(".result_wrapper").find("source").attr("src","assets/video/result/"+$this.win["background"]);
 		$("#video")[0].load();
 		$interval = setInterval(function(){
 			if($("#video")[0].readyState == 4){

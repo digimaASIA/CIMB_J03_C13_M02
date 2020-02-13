@@ -1,7 +1,7 @@
 {
 	"settings":{
 		"dialog_box_img":"",
-		"backsound":"BGM_CIMB_3D_Case01_v.0.0.0.1.mp3",
+		"backsound":"",
 		"percent_correct_answer_per_stage":80
 	},
 	"feedback_false":[
@@ -32,7 +32,7 @@
 				"suara_batin":0,
 				"label_name_icon":"",
 				"question":"\"Sekarang, nyalakan mesin mobil ini menggunakan pemahamanmu tentang AI!\"",
-				"question_video":"MC_CIMB_3D_1312.02_Case01_02_v.0.0.0.1.mp4",
+				"question_video":"MC_CIMB_3D_1313.02_VisNov_03_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
 				    "color": "rgb(17, 17, 17)",
@@ -84,7 +84,7 @@
 						    "font-weight": "bold",
 						    "font-family": "Lato-Bold"
 						},
-						"video":"MC_CIMB_3D_1312.02_Case01_01_v.0.0.0.1.mp4"
+						"video":"MC_CIMB_3D_1313.02_VisNov_01_v.0.0.0.1.mp4"
 					},
 					{
 					 	"index":1,
@@ -110,7 +110,7 @@
 						    "font-weight": "bold",
 						    "font-family": "Lato-Bold"
 						},
-						"video":"MC_CIMB_3D_1312.02_Case01_02_v.0.0.0.1.mp4"
+						"video":"MC_CIMB_3D_1313.02_VisNov_02_v.0.0.0.1.mp4"
 					}
 				],
 				"feedback_type":"custom",
@@ -149,7 +149,7 @@
 				"suara_batin":0,
 				"label_name_icon":"",
 				"question":"\"Oh, jadi kalau aku simpulkan, AI itu semacam kecerdasan buatan yang diprogram dengan kemampuan...\"",
-				"question_video":"MC_CIMB_3D_1312.02_Case01_06_v.0.0.0.1.mp4",
+				"question_video":"MC_CIMB_3D_1313.02_VisNov_06_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
 				    "color": "rgb(17, 17, 17)",
@@ -201,7 +201,33 @@
 						    "font-weight": "bold",
 						    "font-family": "Lato-Bold"
 						},
-						"video":"MC_CIMB_3D_1312.02_Case01_05_v.0.0.0.1.mp4"
+						"video":"MC_CIMB_3D_1313.02_VisNov_04_v.0.0.0.1.mp4"
+					},
+					{
+					 	"index":1,
+					 	"text_2":"Jarvis",
+					 	"text_2_position":"left",
+					 	"label_name_img":"",
+					 	"text":"\"Dengan AI, mobil ini dapat berjalan tanpa perlu dikemudikan karena dilengkapi berbagai sensor yang dapat mencegah kecelakaan.\"",
+					 	"img_character":[0],
+					 	"audio":"",
+					 	"suara_batin":0,
+					 	"box_style":{
+					 		"background": "white",
+							"color": "rgb(17, 17, 17)",
+							"background-repeat": "no-repeat",
+							"border-radius": "16px",
+							"border":"1px solid #8BB2E6"
+					 	},
+					 	"label_name_style":{
+							"background": "#2AB2E5",
+						    "border-radius": "15px",
+						    "color": "white",
+						    "border": "1px solid white",
+						    "font-weight": "bold",
+						    "font-family": "Lato-Bold"
+						},
+						"video":"MC_CIMB_3D_1313.02_VisNov_05_v.0.0.0.1.mp4"
 					}
 				],
 				"feedback_type":"custom",
@@ -240,7 +266,7 @@
 				"suara_batin":0,
 				"label_name_icon":"",
 				"question":"\"Setahuku, AI bekerja dengan cara ... melalui mesin yang diprogram dengan algoritma komputer.\"",
-				"question_video":"MC_CIMB_3D_1312.02_Case01_09_v.0.0.0.1.mp4",
+				"question_video":"MC_CIMB_3D_1313.02_VisNov_09_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
 				    "color": "rgb(17, 17, 17)",
@@ -292,7 +318,33 @@
 						    "font-weight": "bold",
 						    "font-family": "Lato-Bold"
 						},
-						"video":"MC_CIMB_3D_1312.02_Case01_09_v.0.0.0.1.mp4"
+						"video":"MC_CIMB_3D_1313.02_VisNov_07_v.0.0.0.1.mp4"
+					},
+					{
+					 	"index":1,
+					 	"text_2":"Jarvis",
+					 	"text_2_position":"left",
+					 	"label_name_img":"",
+					 	"text":"\"Menurutmu, bagaimana cara kerja AI sebenarnya, Max?\"",
+					 	"img_character":[0],
+					 	"audio":"",
+					 	"suara_batin":0,
+					 	"box_style":{
+					 		"background": "white",
+							"color": "rgb(17, 17, 17)",
+							"background-repeat": "no-repeat",
+							"border-radius": "16px",
+							"border":"1px solid #8BB2E6"
+					 	},
+					 	"label_name_style":{
+							"background": "#2AB2E5",
+						    "border-radius": "15px",
+						    "color": "white",
+						    "border": "1px solid white",
+						    "font-weight": "bold",
+						    "font-family": "Lato-Bold"
+						},
+						"video":"MC_CIMB_3D_1313.02_VisNov_08_v.0.0.0.1.mp4"
 					}
 				],
 				"feedback_type":"custom",
@@ -314,7 +366,6 @@
 					}
 				]
 			},
-
 			{
 				"type":"mc",
 				"text":"",
@@ -332,7 +383,7 @@
 				"suara_batin":0,
 				"label_name_icon":"",
 				"question":"\"Sekarang, nyalakan mesin mobil ini menggunakan pemahamanmu tentang AI!\"",
-				"question_video":"MC_CIMB_3D_1312.02_Case01_02_v.0.0.0.1.mp4",
+				"question_video":"MC_CIMB_3D_1313.02_VisNov_12_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
 				    "color": "rgb(17, 17, 17)",
@@ -384,7 +435,7 @@
 						    "font-weight": "bold",
 						    "font-family": "Lato-Bold"
 						},
-						"video":"MC_CIMB_3D_1312.02_Case01_01_v.0.0.0.1.mp4"
+						"video":"MC_CIMB_3D_1313.02_VisNov_10_v.0.0.0.1.mp4"
 					},
 					{
 					 	"index":1,
@@ -410,7 +461,7 @@
 						    "font-weight": "bold",
 						    "font-family": "Lato-Bold"
 						},
-						"video":"MC_CIMB_3D_1312.02_Case01_02_v.0.0.0.1.mp4"
+						"video":"MC_CIMB_3D_1313.02_VisNov_11_v.0.0.0.1.mp4"
 					}
 				],
 				"feedback_type":"custom",
@@ -449,7 +500,7 @@
 				"suara_batin":0,
 				"label_name_icon":"",
 				"question":"\"Oh, jadi kalau aku simpulkan, AI itu semacam kecerdasan buatan yang diprogram dengan kemampuan...\"",
-				"question_video":"MC_CIMB_3D_1312.02_Case01_06_v.0.0.0.1.mp4",
+				"question_video":"MC_CIMB_3D_1313.02_VisNov_15_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
 				    "color": "rgb(17, 17, 17)",
@@ -501,7 +552,33 @@
 						    "font-weight": "bold",
 						    "font-family": "Lato-Bold"
 						},
-						"video":"MC_CIMB_3D_1312.02_Case01_05_v.0.0.0.1.mp4"
+						"video":"MC_CIMB_3D_1313.02_VisNov_13_v.0.0.0.1.mp4"
+					},
+					{
+					 	"index":1,
+					 	"text_2":"Jarvis",
+					 	"text_2_position":"left",
+					 	"label_name_img":"",
+					 	"text":"\"Dengan AI, mobil ini dapat berjalan tanpa perlu dikemudikan karena dilengkapi berbagai sensor yang dapat mencegah kecelakaan.\"",
+					 	"img_character":[0],
+					 	"audio":"",
+					 	"suara_batin":0,
+					 	"box_style":{
+					 		"background": "white",
+							"color": "rgb(17, 17, 17)",
+							"background-repeat": "no-repeat",
+							"border-radius": "16px",
+							"border":"1px solid #8BB2E6"
+					 	},
+					 	"label_name_style":{
+							"background": "#2AB2E5",
+						    "border-radius": "15px",
+						    "color": "white",
+						    "border": "1px solid white",
+						    "font-weight": "bold",
+						    "font-family": "Lato-Bold"
+						},
+						"video":"MC_CIMB_3D_1313.02_VisNov_14_v.0.0.0.1.mp4"
 					}
 				],
 				"feedback_type":"custom",
@@ -540,7 +617,7 @@
 				"suara_batin":0,
 				"label_name_icon":"",
 				"question":"\"Setahuku, AI bekerja dengan cara ... melalui mesin yang diprogram dengan algoritma komputer.\"",
-				"question_video":"MC_CIMB_3D_1312.02_Case01_09_v.0.0.0.1.mp4",
+				"question_video":"MC_CIMB_3D_1313.02_VisNov_18_v.0.0.0.1.mp4",
 				"box_style":{
 					"background-image": "url(assets/image/background/diabox-ngomong.png)",
 				    "color": "rgb(17, 17, 17)",
@@ -592,7 +669,33 @@
 						    "font-weight": "bold",
 						    "font-family": "Lato-Bold"
 						},
-						"video":"MC_CIMB_3D_1312.02_Case01_09_v.0.0.0.1.mp4"
+						"video":"MC_CIMB_3D_1313.02_VisNov_16_v.0.0.0.1.mp4"
+					},
+					{
+					 	"index":1,
+					 	"text_2":"Jarvis",
+					 	"text_2_position":"left",
+					 	"label_name_img":"",
+					 	"text":"\"Menurutmu, bagaimana cara kerja AI sebenarnya, Max?\"",
+					 	"img_character":[0],
+					 	"audio":"",
+					 	"suara_batin":0,
+					 	"box_style":{
+					 		"background": "white",
+							"color": "rgb(17, 17, 17)",
+							"background-repeat": "no-repeat",
+							"border-radius": "16px",
+							"border":"1px solid #8BB2E6"
+					 	},
+					 	"label_name_style":{
+							"background": "#2AB2E5",
+						    "border-radius": "15px",
+						    "color": "white",
+						    "border": "1px solid white",
+						    "font-weight": "bold",
+						    "font-family": "Lato-Bold"
+						},
+						"video":"MC_CIMB_3D_1313.02_VisNov_17_v.0.0.0.1.mp4"
 					}
 				],
 				"feedback_type":"custom",

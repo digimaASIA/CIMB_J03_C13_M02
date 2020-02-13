@@ -2,7 +2,7 @@
 	"score":true,
 	"perfect":{
 		"ribbon":"congrat.png",
-		"background":"MC_CIMB_GI_5501.04_Win_v.0.0.0.1.mp4",
+		"background":"MC_CIMB_3D_1313.02_VisNov_Ending_02_v.0.0.0.1.mp4",
 		"description":{
 			"text":"<i>File</i> berisi peta lokasi rahasia berhasil kamu dapatkan! Gunakanlah informasi ini untuk melancarkan misimu melindungi kota.",
 			"css":{
@@ -19,7 +19,7 @@
 	},
 	"win":{
 		"ribbon":"congrat.png",
-		"background":"MC_CIMB_GI_5501.04_Win_v.0.0.0.1.mp4",
+		"background":"MC_CIMB_3D_1313.02_VisNov_Ending_02_v.0.0.0.1.mp4",
 		"description":{
 			"text":"<i>File</i> berisi peta lokasi rahasia berhasil kamu dapatkan! Gunakanlah informasi ini untuk melancarkan misimu melindungi kota.",
 			"css":{
@@ -36,7 +36,7 @@
 	},
 	"lose":{
 		"ribbon":"failed.png",
-		"background":"MC_CIMB_GI_5501.04_Lose_v.0.0.0.1.mp4",
+		"background":"MC_CIMB_3D_1313.02_VisNov_Ending_02_v.0.0.0.1.mp4",
 		"description":{
 			"text":"Sayang sekali, kamu belum berhasil! Ulangi sekali lagi ya...",
 			"css":{

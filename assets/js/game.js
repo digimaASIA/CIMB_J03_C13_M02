@@ -302,14 +302,17 @@ Game.prototype.setProgresBar = function() {
     console.log(game.total_soal);
     // console.log(mode);
 
-    var game_quiz = game.scorm_helper.getQuizResult(["game_slide_"+$this.setting_global["slide_quiz_swipe_card"],"game_slide_"+$this.setting_global["slide"]]);
+    var game_quiz = game.scorm_helper.getQuizResult(["game_slide_"+$this.setting_global["slide_quiz_visnov"]]);
     console.log(game_quiz);
-    $this.game_data["total_answer_true"] = game_quiz[""];
+    // $this.game_data["total_answer_true"] = game_quiz[""];
 
     let mode = 2; //mode 1 berdasarkan total step; mode 2 berdasarkan total soal
     if(mode == 2){
-        var_a = ($this.game_data["last_score"] != undefined ? $this.game_data["last_score"] : 0);
-        var_b = game.total_soal;
+        // var_a = ($this.game_data["last_score"] != undefined ? $this.game_data["last_score"] : 0);
+        // var_b = game.total_soal;
+
+        var_a = game_quiz['score'];
+        var_b = game_quiz['total_soal'];
     }else{
         var_a = ($this.game_data["curr_step"] != undefined ? $this.game_data["curr_step"] : 0);
         var_b = game.total_step;
