@@ -361,6 +361,7 @@ SliderScoring.prototype.createSlider = function() {
 
 		//event click btn_scoring
 		$(clone).find(".btn_scoring").unbind().click(function(){
+			game.audio.audioGesture.play();
 			let btn_scoring_wrapper = $(this).parent();
 			let list_slider = $(this).parents().eq(2);
 			let index_slider = parseInt($(list_slider).attr("data-slick-index"));
