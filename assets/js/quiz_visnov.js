@@ -150,9 +150,12 @@ quizVisnov.prototype.stage_brankas = function(show_feedback_visnov = "", benar =
     $(".stage_b").removeClass("active");
     $(".stage_b").removeClass("fail");
     $(".stage_b").removeClass("complete");
-    if(ldata == undefined || ldata["answer"] != undefined){
-        let arr_answer = ldata["answer"];
-        let arr_list_question = ldata["list_question"];
+
+    let arr_answer = (ldata != undefined ? ldata["answer"] : []);
+    let arr_list_question = (ldata != undefined ? ldata["list_question"] : []);
+    if(ldata == undefined || arr_answer != undefined){
+        // let arr_answer = arr_answer;
+        // let arr_list_question = ldata["list_question"];
         for (var i = 0; i < arr_answer.length; i++) {
             if(arr_answer[i] == 1){
                 $(".star:nth-child("+(i+1)+")").addClass("complete");
@@ -168,10 +171,8 @@ quizVisnov.prototype.stage_brankas = function(show_feedback_visnov = "", benar =
     //set stage n dengan addClass active
     console.log(show_feedback_visnov);
     if(show_feedback_visnov == ""){
-        let ldata = game.scorm_helper.getLastGame("game_slide_"+$this.current_settings["slide"]);
-        console.log(ldata);
-        if(ldata["answer"] != undefined){
-            if(ldata["answer"].length == $this.question_datas.length && ldata["answer"].indexOf(0) == -1){
+        if(arr_answer != undefined){
+            if(arr_answer.length == $this.question_datas.length && arr_answer.indexOf(0) == -1){
                 $this.nextSoalAtLast();
                 return;
             }
@@ -3188,6 +3189,7 @@ quizVisnov.prototype.sliderPopup = function() {
     let slider_length = $("#popupList-2").find(".slider_wrapper").length;
     console.log(slider_length);
     if(slider_length == 1){
+        $("#popupList-2 .logo_image img").show();
         $("#popupList-2 .start-game-quiz").show();
     }
     $("#popupList-2").find(".slider_wrapper").on("afterChange", function(event, slick, currentSlide, nextSlide){
