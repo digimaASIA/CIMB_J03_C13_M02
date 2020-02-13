@@ -18,6 +18,7 @@ ResultStage.prototype.init = function(current_settings) {
 		console.log(e);
 		$this.score = e["score"];
 		$this.win = e["win"];
+		$this.lose = e["lose"];
 		$this.setResult();
 	},'json');
 };
@@ -65,7 +66,7 @@ ResultStage.prototype.setResult = function() {
 		$(".result_wrapper").css("height",height_text+"px");
 	},1000);
 
-	let min_score_per_stage = 0;
+	let min_score_per_stage = 80;
 
 	console.log(score);
 	if(score >= min_score_per_stage){
@@ -113,7 +114,7 @@ ResultStage.prototype.setResult = function() {
 		game.scorm_helper.setSingleData("restart",true);
 		
 		//set video
-		let src = $this.sangat["background"];
+		let src = $this.lose["background"];
 		$this.setVideo("",src);
 
 		$(".result_wrapper").addClass("sangat_digital");
@@ -129,11 +130,15 @@ ResultStage.prototype.setResult = function() {
 		if($this.lose["description"]["css"]){
 			$(".text_wrapper").css($this.lose["description"]["css"]);
 		}
+
+		$(".star_score_wrapper").show();
+		
 		/*$(".button").html($this.lose["button"]["text"]);
 		if($this.lose["button"]["button_css"]){
 			$(".button").css($this.lose["button"]["button_css"]);
 		}*/
 		//$(".button").addClass("btn-tryagain");
+		$(".btn_restart").hide();
 		$(".btn_restart").click(function(e){
 			game.audio.audioButton.play();
 			$(this).off();
@@ -142,7 +147,7 @@ ResultStage.prototype.setResult = function() {
 		// click try again button
 		$(".btn_quit").unbind().click(function(e){
 			game.audio.audioButton.play();
-			game.nextSlide();
+			game.setSlide($this.setting_global["slide_game_map"]);
 			//$(this).off();
 			// try{
 	  //           var btn_back = parent.top.document.getElementsByClassName("back-button")[0];

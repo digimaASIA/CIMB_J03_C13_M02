@@ -45,7 +45,7 @@ var Setting = function(){
       this.slide_game_map = 6; //variabel untuk menentukan slide ke-n dari page game map
       this.slide_slider_feedback_after_stage = 15;
       this.slide_stage_brankas = 12;
-      this.arr_slide_quiz_n = [7,10]; //array slide quiz ke-n
+      this.arr_slide_quiz_n = [7,11]; //array slide quiz ke-n
       this.slide_quiz_visnov = 13;
       /*End setting able variable*/
 

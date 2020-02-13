@@ -17,7 +17,7 @@
 	],
 	"button":{
 		"text":"FINISH",
-		"gotoslide":7,
+		"gotoslide":15,
 		"css":""
 	}
 }

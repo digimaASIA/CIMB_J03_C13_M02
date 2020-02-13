@@ -1,0 +1,122 @@
+{
+	"background":"#F5F0F4",
+	"settings":{
+		"type":"page",
+		"showNumbering":true
+	},
+	"tutorial":{
+		"css":{
+			"border-radius":"16px",
+			"background":"#f8975c",
+			"border":"none"
+		}
+	},
+	"list_question":
+	[
+		{
+			"title":{
+				"text":"Pilihlah satu jawaban yang menurutmu benar!"
+			},
+			"type":"mc",
+			"question":"Dalam Syariah, risiko/jaminan ditanggung oleh antar peserta asuransi. Hal itu disebut dengan..",
+			"pilihan":
+			[
+				{"index":0,"text":"<i>Split risk</i>"},
+				{"index":1,"text":"<i>Moving of risk</i>"},
+				{"index":2,"text":"<i>Sharing of risk</i>"},
+				{"index":3,"text":"<i>Transfer of risk</i>"}
+			],
+			"jawaban":[2],
+			"next_button":true,
+			"button_css":{
+				"border-radius":"16px",
+				"background":"#ee9c6a",
+				"border":"none"
+			}
+		},
+		{
+			"title":{
+				"text":"Pilihlah satu jawaban yang menurutmu benar!"
+			},
+			"type":"mc",
+			"question":"Berikut adalah objek asuransi yang dapat ditanggung oleh asuransi umum syari'ah, kecuali..",
+			"pilihan":
+			[
+				{"index":0,"text":"Toko elektronik"},
+				{"index":1,"text":"Rumah tinggal"},
+				{"index":2,"text":"Hotel <i>with bar</i>"},
+				{"index":3,"text":"Restoran padang"}
+			],
+			"jawaban":[2],
+			"next_button":true,
+			"button_css":{
+				"border-radius":"16px",
+				"background":"#ee9c6a",
+				"border":"none"
+			}
+		},
+		{
+			"title":{
+				"text":"Pilihlah satu jawaban yang menurutmu benar!"
+			},
+			"type":"mc",
+			"question":"Apakah yang dimaksud dengan dana <i>tabarru'</i>?",
+			"pilihan":
+			[
+				{"index":0,"text":"Dana asuransi yang dikelola oleh peserta (tertanggung)"},
+				{"index":1,"text":"Dana yang diberikan tertanggung kepada pihak Bank untuk mengelola biaya asuransinya"},
+				{"index":2,"text":"Dana milik bersama peserta asuransi"},
+				{"index":3,"text":"Dana yang dimiliki oleh perusahaan asuransi sebagai penanggung"}
+			],
+			"jawaban":[2],
+			"next_button":true,
+			"button_css":{
+				"border-radius":"16px",
+				"background":"#ee9c6a",
+				"border":"none"
+			}
+		},
+		{
+			"title":{
+				"text":"Pilihlah satu jawaban yang menurutmu benar!"
+			},
+			"type":"mc",
+			"question":"Salah satu akad dalam konsep syariah adalah memberikan kuasa kepada pengelola untuk mengelola Dana <i>Tabarru'</i> dengan imbalan berupa <i>ujrah</i>. Akad tersebut disebut...",
+			"pilihan":
+			[
+				{"index":0,"text":"Akad Hibah"},
+				{"index":1,"text":"Akad <i>Mudharabah</i>"},
+				{"index":2,"text":"Akad <i>Wakalah Bil Ujrah</i>"},
+				{"index":3,"text":"Akad Pertukaran"}
+			],
+			"jawaban":[2],
+			"next_button":true,
+			"button_css":{
+				"border-radius":"16px",
+				"background":"#ee9c6a",
+				"border":"none"
+			}
+		},
+		{
+			"title":{
+				"text":"Pilihlah satu jawaban yang menurutmu benar!"
+			},
+			"type":"mc",
+			"question":"Pada Akad <i>Mudharabah</i>, imbalan yang diberikan kepada pengelola berupa...",
+			"pilihan":
+			[
+				{"index":0,"text":"Ujrah"},
+				{"index":1,"text":"Komisi"},
+				{"index":2,"text":"Bagi hasil"},
+				{"index":3,"text":"Biaya administrasi"}
+			],
+			"jawaban":[2],
+			"next_button":true,
+			"button_css":{
+				"border-radius":"16px",
+				"background":"#ee9c6a",
+				"border":"none"
+			}
+		}
+	]
+}

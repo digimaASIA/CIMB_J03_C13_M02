@@ -59,9 +59,9 @@ var ScormHelper = function(){
 	}catch(e){
 		$this.ldata = {};
 		// $this.ldata = {
-		// 	"curr_slide":12,
+		// 	"curr_slide":13,
 		// 	"quiz":[
-		// 		{"index":"game_slide_12","answer":[1, 1, 1, 1, 1, 0],"list_question":[0, 1, 2, 3, 4, 5],"start_date":"12 Februari 2020 22:28:4","end_date":"12 Februari 2020 22:28:59","is_complete":true}
+		// 		{"index":"game_slide_13","answer":[1, 1, 1, 1, 1, 1],"list_question":[0, 1, 2, 3, 4, 5],"start_date":"12 Februari 2020 22:28:4","end_date":"12 Februari 2020 22:28:59","is_complete":true}
 		// 	],
 		// 	"game_data":{
 		// 		"total_stage": 2,

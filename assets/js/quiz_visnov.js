@@ -150,7 +150,7 @@ quizVisnov.prototype.stage_brankas = function(show_feedback_visnov = "", benar =
     $(".stage_b").removeClass("active");
     $(".stage_b").removeClass("fail");
     $(".stage_b").removeClass("complete");
-    if(ldata["answer"] != undefined){
+    if(ldata == undefined || ldata["answer"] != undefined){
         let arr_answer = ldata["answer"];
         let arr_list_question = ldata["list_question"];
         for (var i = 0; i < arr_answer.length; i++) {
