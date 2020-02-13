@@ -10,6 +10,7 @@ VideoInteractive.prototype.init = function(current_settings) {
 	$this.deg = $(".deg_wrapper img").first().clone();
 	$("#gesture").remove();
 	$.get("config/setting_video_slide_"+$this.current_settings["slide"]+".json",function(e){
+		$this.skip = e["button"];
 		$this.video = e["video"];
 		$this.background_video = e["background_video"];
 		$this.list_gesture = e["list_gesture"];
@@ -40,6 +41,11 @@ VideoInteractive.prototype.setTutorial = function() {
 VideoInteractive.prototype.setGame = function() {
 	$this = this;
 	$video = document.getElementById("video");
+	if($this.skip){
+		$(".button_wrapper").show();
+		$(".button_wrapper .nextgame").html($this.skip["text"]);
+		$(".button_wrapper .nextgame").css($this.skip["css"]);
+	}
 	$("#video").attr("poster","assets/image/slider/"+$this.background_video);
 	$("#video").find('source').attr("src","assets/video/"+$this.video);
 	$("#video")[0].load();
@@ -93,6 +99,8 @@ VideoInteractive.prototype.setGame = function() {
 		}
 	});
 	$video.addEventListener("ended",function(){
+		$(".button_wrapper .nextgame").html("NEXT");
+		$(".button_wrapper .nextgame").removeAttr("style");
 		$(".button_wrapper").show();
 		$(".btn_play").find("img").attr("src","assets/image/slider/replay.png");
 		$(".btn_play").show();
