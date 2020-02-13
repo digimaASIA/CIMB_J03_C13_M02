@@ -26,6 +26,9 @@ var Audio = function(){
 	this.audioGesture = document.createElement('audio');
     this.audioGesture.setAttribute('src', 'assets/audio/Points1.wav');
 
+    this.audioCard = document.createElement('audio');
+    this.audioCard.setAttribute('src', 'assets/audio/bgm_card.mp3');
+
     this.audio_dynamic = function(src){
 		console.log(src);
 		this.audioDynamic = document.createElement('audio');

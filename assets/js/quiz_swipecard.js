@@ -71,6 +71,10 @@ QuizSwipeCard.prototype.getQuestion = function() {
 
 QuizSwipeCard.prototype.setData = function() {
 	$this = this;
+
+	game.audio.audioCard.loop = true;
+	game.audio.audioCard.play();
+
 	$sdata = game.scorm_helper.setQuizData("game_slide_"+$this.current_settings["slide"],$this.getQuestion());
 	$this.list_question = $sdata["list_question"];
 	$this.curr_soal = $sdata["answer"].length;
@@ -281,6 +285,7 @@ QuizSwipeCard.prototype.saveLife = function() {
 QuizSwipeCard.prototype.setCompleteData = function($flag) {
 	$this = this;
 	$("#popupFeedbackCard").modal("hide");
+	game.audio.audioCard.pause();
 	$this.game_data["complete_stage"] = $this.game_data["complete_stage"]?$this.game_data["complete_stage"]:[];
 	$this.game_data["failed_stage"]  = $this.game_data["failed_stage"]?$this.game_data["failed_stage"]:[];
 	if($this.right == $this.list_card.length){
