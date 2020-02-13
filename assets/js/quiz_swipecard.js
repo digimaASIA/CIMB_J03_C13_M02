@@ -205,8 +205,8 @@ QuizSwipeCard.prototype.cekJawaban = function() {
 			if($flag == 0){
 				$this.saveLife();
 			}else{
+				$this.curr_soal++;
 				if($this.curr_soal != $this.list_card.length){
-					$this.curr_soal++;
 					$this.setCard();
 				}else{
 					$this.setCompleteData();
@@ -258,8 +258,8 @@ QuizSwipeCard.prototype.setFeedback = function() {
 		if($flag == 0){
 			$this.saveLife();
 		}else{
+			$this.curr_soal++;
 			if($this.curr_soal != $this.list_card.length){
-				$this.curr_soal++;
 				$this.setCard();
 			}else{
 				$this.setCompleteData();
@@ -272,10 +272,10 @@ QuizSwipeCard.prototype.saveLife = function() {
 	$(".heart_wrapper .heart").last().attr("src","assets/image/swipe_card/heart_default.png");
 	$(".heart_wrapper .heart").last().removeClass("heart");
 	game.scorm_helper.setSingleData($this.current_settings["slide"]+"_lastlife",$(".heart_wrapper .heart").length);
+	$this.curr_soal++;
 	if($(".heart_wrapper .heart").length == 0){
 		$this.setCompleteData();
 	}else if($this.curr_soal != $this.list_card.length){
-		$this.curr_soal++;
 		$this.setCard();
 	}else{
 		$this.setCompleteData();
