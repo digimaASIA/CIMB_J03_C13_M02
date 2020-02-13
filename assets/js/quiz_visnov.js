@@ -279,14 +279,6 @@ quizVisnov.prototype.mulai_game = function(){
         let mode = 2; 
         // $this.setProgresBar(mode);
     /*End function set progress bar*/
-
-    //get backsound stage
-    if($this.settings["backsound"] != undefined && $this.settings["backsound"] != ""){
-        // console.log(game.time_backsound_per_stage);
-        if(game.time_backsound_per_stage == undefined){
-            game.playBacksound($this.settings["backsound"]);
-        }
-    }
    
     // console.log(e['settings']['sound_loading_bar']);
     if(this.settings['sound_loading_bar'] != undefined){
@@ -314,6 +306,18 @@ quizVisnov.prototype.mulai_game = function(){
 
     if($this.game_data["curr_soal"] != undefined){
         $this.resume = 1;
+    }
+
+    //get backsound stage
+    if($this.settings["backsound"] != undefined && $this.settings["backsound"] != ""){
+        // console.log(game.time_backsound_per_stage);
+        // if(game.time_backsound_per_stage == undefined){
+        //     game.playBacksound($this.settings["backsound"]);
+        // }
+
+        let src = "assets/audio/"+$this.settings["backsound"];
+        console.log(src);
+        $this.playBacksound(src);
     }
 
     //show modal tutorial
@@ -426,7 +430,7 @@ quizVisnov.prototype.showQuestion = function() {
     var $clone_div_label_img = $(".content_visnov .div_label_img").clone();
 
     //play backsound
-    $this.playBacksound();
+    // $this.playBacksound();
 
     //set background image
     if($this.question_datas[$this.curr_soal]["background_image"] != ""){
@@ -1951,14 +1955,20 @@ quizVisnov.prototype.showVideoFeedback = function($clone, benar, index){
     }
 };
 
-quizVisnov.prototype.playBacksound = function() {
+quizVisnov.prototype.playBacksound = function(src = '') {
     var $this = this;
    
     //play sound 2
     console.log($this.curr_soal);
     console.log($this.question_data);
     console.log($this.question_datas[$this.curr_soal]);
-    var src_audio_2 = "assets/audio/"+$this.question_datas[$this.curr_soal]['audio'];
+
+    var src_audio_2
+    if(src == ''){
+        src_audio_2 = "assets/audio/"+$this.question_datas[$this.curr_soal]['audio'];
+    }else{
+        src_audio_2 = src;
+    }
     console.log('src_audio_2: '+src_audio_2);
     $this.audio_dynamic_2 = game.audio.audio_dynamic(src_audio_2);
     var promise = $this.audio_dynamic_2.play();
@@ -2312,10 +2322,17 @@ quizVisnov.prototype.showHideSoal = function(mode){
 quizVisnov.prototype.stopBackSound = function(){
     var $this = this;
     //pause sound
+    // console.log($this.audio_dynamic_2);
     if($this.audio_dynamic_2 != undefined){
         $this.audio_dynamic_2.pause();
         $this.audio_dynamic_2.currentTime = 0;
     }
+
+    // if(game.audio_backsound_per_stage != undefined){
+    //     clearInterval(game.audio_backsound_per_stage);
+    //     game.audio_backsound_per_stage.pause();
+    //     game.audio_backsound_per_stage.currentTime = 0;
+    // }
 }
 
 quizVisnov.prototype.substringText = function(string, max_string){

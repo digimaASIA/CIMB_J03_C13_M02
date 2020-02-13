@@ -1,7 +1,7 @@
 {
 	"settings":{
 		"dialog_box_img":"",
-		"backsound":"",
+		"backsound":"BGM3_quiz_visnov.mp3",
 		"percent_correct_answer_per_stage":80
 	},
 	"feedback_false":[

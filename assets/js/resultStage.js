@@ -68,8 +68,8 @@ ResultStage.prototype.setResult = function() {
 
 	let min_score_per_stage = 80;
 
-	console.log(score);
-	if(score >= min_score_per_stage){
+	console.log(Math.round(score));
+	if(Math.round(score) >= min_score_per_stage){
 		// set to win
 		// $(".slider-content").css({"background":"url('assets/image/result/bg-win.png') no-repeat center","background-size":"cover"});
 		game.audio.audioNiceJob.play();
