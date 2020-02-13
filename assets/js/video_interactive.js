@@ -31,6 +31,7 @@ VideoInteractive.prototype.setTutorial = function() {
       	nextArrow: false
   	});
   	$("#tutorial .tutorial.video_interactive").find(".start-game").click(function(e){
+  		$(this).off();
     	$("#tutorial .tutorial.video_interactive").removeClass("active");
     	$("#tutorial").modal('hide');
   	});

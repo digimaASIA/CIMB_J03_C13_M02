@@ -111,7 +111,7 @@ ResultStage.prototype.setResult = function() {
 		// $(".slider-content").css({"background":"url('assets/image/result/bg-lose.png') no-repeat center","background-size":"cover"});
 		game.scorm_helper.setStatus("failed");
 		game.audio.audioKalah.play();
-		game.scorm_helper.setSingleData("restart",true);
+		game.scorm_helper.setSingleData("restart2",true);
 		
 		//set video
 		let src = $this.lose["background"];
@@ -132,7 +132,7 @@ ResultStage.prototype.setResult = function() {
 		}
 
 		$(".star_score_wrapper").show();
-		
+
 		/*$(".button").html($this.lose["button"]["text"]);
 		if($this.lose["button"]["button_css"]){
 			$(".button").css($this.lose["button"]["button_css"]);

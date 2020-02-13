@@ -39,6 +39,7 @@ QuizSwipeCard.prototype.setTutorial = function() {
 	  	});
   	}
   	$("#tutorial .tutorial.swipe_card").find(".start-game").click(function(e){
+  		$(this).off();
   		$("#tutorial .tutorial.swipe_card").removeClass("active");
     	$("#tutorial").modal('hide');
     	$this.setData();
@@ -75,7 +76,15 @@ QuizSwipeCard.prototype.setData = function() {
 	game.audio.audioCard.loop = true;
 	game.audio.audioCard.play();
 
+	/*console.log(game.scorm_helper.getSingleData("restart2"));
+	if(game.scorm_helper.getSingleData("restart2") == undefined){
+		$ldata = game.scorm_helper.getLastGame("game_slide_"+$this.current_settings["slide"]);
+	}else{
+		$ldata = [];
+	}
+	console.log($ldata);*/
 	$sdata = game.scorm_helper.setQuizData("game_slide_"+$this.current_settings["slide"],$this.getQuestion());
+	game.scorm_helper.setSingleData("restart",undefined);
 	$this.list_question = $sdata["list_question"];
 	$this.curr_soal = $sdata["answer"].length;
 	if($sdata["answer"].length == 0){
@@ -241,7 +250,7 @@ QuizSwipeCard.prototype.setFeedback = function() {
         arrows: false,
         variableWidth: true
 	});
-	$("#popupFeedbackCard .text_parent")[0].slick.refresh();
+	//$("#popupFeedbackCard .text_parent")[0].slick.refresh();
 	$("#popupFeedbackCard #video").find("source").attr("src","assets/image/swipe_card/"+$this.list_card[$this.list_question[$this.curr_soal]]["feedback"][0]["image"]);
 	$("#popupFeedbackCard #video")[0].load();
 	$("#popupFeedbackCard .text_parent").on("afterChange",function(event,slick,currentSlide,nextSlide){
@@ -286,6 +295,17 @@ QuizSwipeCard.prototype.setCompleteData = function($flag) {
 	$this = this;
 	$("#popupFeedbackCard").modal("hide");
 	game.audio.audioCard.pause();
+	if($this.curr_soal != $this.list_card.length){
+		for(i = $this.curr_soal; i < $this.list_card.length; i++){
+			game.scorm_helper.pushAnswer(0,$this.list_card[$this.list_question[i]]["title_feedback"]);
+		}
+	}
+	if($("#popupFeedbackCard .text_parent").hasClass("slick-initialized")){
+		$("#popupFeedbackCard .text_parent").slick("unslick");
+	}
+	if($(".cardparent").hasClass("slick-initialized")){
+		$(".cardparent").slick("unslick");
+	}
 	$this.game_data["complete_stage"] = $this.game_data["complete_stage"]?$this.game_data["complete_stage"]:[];
 	$this.game_data["failed_stage"]  = $this.game_data["failed_stage"]?$this.game_data["failed_stage"]:[];
 	if($this.right == $this.list_card.length){
