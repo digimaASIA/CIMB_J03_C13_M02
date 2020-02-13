@@ -68,7 +68,7 @@ ResultSliderScoring.prototype.setResult = function() {
 	if(average_score <= 2){
 		// set to win
 		// $(".slider-content").css({"background":"url('assets/image/result/bg-win.png') no-repeat center","background-size":"cover"});
-		// game.audio.audioMenang.play();
+		game.audio.audioNiceJob.play();
 		// game.scorm_helper.setStatus("passed");
 
 		//set video
@@ -97,7 +97,7 @@ ResultSliderScoring.prototype.setResult = function() {
 	else if(average_score > 2 && average_score < 5){
 		// set to win
 		// $(".slider-content").css({"background":"url('assets/image/result/bg-win.png') no-repeat center","background-size":"cover"});
-		// game.audio.audioMenang.play();
+		game.audio.audioNiceJob.play();
 
 		//set video
 		let src = $this.cukup["background"];
@@ -125,7 +125,7 @@ ResultSliderScoring.prototype.setResult = function() {
 		// set to lose
 		// $(".slider-content").css({"background":"url('assets/image/result/bg-lose.png') no-repeat center","background-size":"cover"});
 		// game.scorm_helper.setStatus("failed");
-		// game.audio.audioKalah.play();
+		game.audio.audioNiceJob.play();
 		// game.scorm_helper.setSingleData("restart",true);
 		
 		//set video

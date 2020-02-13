@@ -33,7 +33,7 @@ Game.prototype.create_slide = function() {
     console.log(str);
 	var arr = str.split("/");
 
-    if(current >= 1 && current <= 4){
+    if(current >= 1 && current <= 3){
         if($this.audio_global == undefined){
             let src = "assets/audio/BGM1_opening.mp3";
             $this.audio_global = game.audio.audio_dynamic(src);
@@ -41,13 +41,13 @@ Game.prototype.create_slide = function() {
             $this.audio_global.play();
         }
     }else if(current >= 7 && current <= 10){
-        if($this.audio_global == undefined){
-            let src = "assets/audio/BGM2_quiz_swipe_card.mp3";
-            $this.audio_global = game.audio.audio_dynamic(src);
-            $this.audio_global.loop = true;
-            $this.audio_global.play();
-        }
-    }else if(current >= 11 && current <= 14){
+        // if($this.audio_global == undefined){
+        //     let src = "assets/audio/BGM2_quiz_swipe_card.mp3";
+        //     $this.audio_global = game.audio.audio_dynamic(src);
+        //     $this.audio_global.loop = true;
+        //     $this.audio_global.play();
+        // }
+    }else if(current >= 12 && current <= 14){
         if($this.audio_global == undefined){
             let src = "assets/audio/BGM3_quiz_visnov.mp3";
             $this.audio_global = game.audio.audio_dynamic(src);

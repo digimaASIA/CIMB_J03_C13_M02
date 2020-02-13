@@ -48,19 +48,9 @@
 			"class":"QuizSwipeCard"
 		},
 		{
-			"slide":9,
-			"file":"html/quiz_swipe_card.html",
-			"class":"QuizSwipeCard"
-		},
-		{
-			"slide":10,
+			"slide":11,
 			"file":"html/result_stage.html",
 			"class":"ResultStage"
-		},
-		{
-			"slide":11,
-			"file":"html/sliderfullscreen.html",
-			"class":"SliderFullScreen"
 		},
 		{
 			"slide":12,
@@ -69,21 +59,26 @@
 		},
 		{
 			"slide":13,
-			"file":"html/quiz_visnov.html",
-			"class":"quizVisnov"
-		},
-		{
-			"slide":14,
-			"file":"html/result_stage.html",
-			"class":"ResultStage"
-		},
-		{
-			"slide":15,
 			"file":"html/sliderfullscreen.html",
 			"class":"SliderFullScreen"
 		},
 		{
+			"slide":14,
+			"file":"html/quiz_visnov.html",
+			"class":"quizVisnov"
+		},
+		{
+			"slide":15,
+			"file":"html/result_stage.html",
+			"class":"ResultStage"
+		},
+		{
 			"slide":16,
+			"file":"html/sliderfullscreen.html",
+			"class":"SliderFullScreen"
+		},
+		{
+			"slide":17,
 			"file":"html/result_game.html",
 			"class":"ResultGame"
 		}
