@@ -91,7 +91,11 @@ ResultStage.prototype.setResult = function() {
 			// $(".ribbon_result .title-result").html($this.win["ribbon_text"]);
 		}
 
-		$(".text_wrapper").html($this.win["description"]["text"]);
+		if($this.win["description"]["text"]){
+			$(".text_wrapper").html($this.win["description"]["text"]);
+		}else{
+			$(".text_wrapper").hide();	
+		}
 		if($this.win["description"]["css"]){
 			$(".text_wrapper").css($this.win["description"]["css"]);
 		}
@@ -109,7 +113,7 @@ ResultStage.prototype.setResult = function() {
 	else{
 		// set to lose
 		// $(".slider-content").css({"background":"url('assets/image/result/bg-lose.png') no-repeat center","background-size":"cover"});
-		game.scorm_helper.setStatus("failed");
+		//game.scorm_helper.setStatus("failed");
 		game.audio.audioKalah.play();
 		game.scorm_helper.setSingleData("restart2",true);
 		
@@ -126,7 +130,11 @@ ResultStage.prototype.setResult = function() {
 		if($this.lose["score_css"]){
 			$(".score_wrapper").css($this.lose["score_css"]);
 		}
-		$(".text_wrapper").html($this.lose["description"]["text"]);
+		if($this.lose["description"]["text"]){
+			$(".text_wrapper").html($this.lose["description"]["text"]);
+		}else{
+			$(".text_wrapper").hide();	
+		}
 		if($this.lose["description"]["css"]){
 			$(".text_wrapper").css($this.lose["description"]["css"]);
 		}

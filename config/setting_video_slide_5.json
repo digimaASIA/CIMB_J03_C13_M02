@@ -189,5 +189,12 @@
 				"left":"50%"
 			}
 		}
-	]
+	],
+	"button":{
+		"text":"SKIP VIDEO",
+		"css":{
+			"width":"auto",
+			"background":"none"
+		}
+	}
 }
