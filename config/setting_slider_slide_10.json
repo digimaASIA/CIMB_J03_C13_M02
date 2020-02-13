@@ -1,0 +1,15 @@
+{
+	"background":"white no-repeat bottom / cover",
+	"list_slider":
+	[
+		{
+			"image":"MC_CIMB_GI_5501.04_Opening_08_v.0.0.0.1.mp4",
+			"text":"Selesaikan tugas ini dengan menjawab pilihan dengan tepat!",
+			"button":[
+				{
+					"text":"Next"		
+				}
+			]
+		}
+	]
+}

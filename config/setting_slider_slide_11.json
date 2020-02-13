@@ -1,0 +1,12 @@
+{
+	"background":"white no-repeat bottom / cover",
+	"list_slider":
+	[
+		{
+			"type":"video",
+			"image":"MC_CIMB_3D_1313.02_VisNov_Opening_01_v.0.0.0.1.mp4",
+			"image_click":true,
+			"text":"Selamat. Kalian sudah mengetahui tahapan-tahapan transformasi digital. Dan seperti yang saya katakan sebelumnya, bahwa saya tidak bisa melakukannya sendiri."
+		}
+	]
+}

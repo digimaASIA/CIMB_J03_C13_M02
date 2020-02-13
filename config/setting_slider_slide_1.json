@@ -1,0 +1,12 @@
+{
+	"background":"white no-repeat bottom / cover",
+	"list_slider":
+	[
+		{
+			"type":"video",
+			"image":"MC_CIMB_3D_1313.02_01_v.0.0.0.1.mp4",
+			"image_click":true,
+			"text":"Wah, saya sudah belajar banyak nih. Saya tidak boleh menyimpannya sendiri, karena saya tidak bisa melakukan transformasi digital seorang diri."
+		}
+	]
+}

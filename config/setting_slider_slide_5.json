@@ -1,0 +1,14 @@
+{
+	"background":"white no-repeat bottom / cover",
+	"list_slider":
+	[
+		{
+			"video_potrait":"MC_BEATS_C01M03_Win_v.0.0.0.1.mp4",
+			"button":[
+				{
+					"text":"Next"
+				}
+			]
+		}
+	]
+}

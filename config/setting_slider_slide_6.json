@@ -1,0 +1,15 @@
+{
+	"background":"white no-repeat bottom / cover",
+	"list_slider":
+	[
+		{
+			"image":"MC_CIMB_GI_5501.04_Slider_05_v.0.0.0.2.mp4",
+			"text":"Pada milestone kedua ini, kamu akan mengetahui ketentuan dalam Syariah. Simak pengetahuannya pada video berikut!",
+			"button":[
+				{
+					"text":"Next"
+				}
+			]
+		}
+	]
+}

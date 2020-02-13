@@ -1,0 +1,196 @@
+<style type="text/css">
+	img{
+		width: 100%;
+	}
+	p{
+		margin: 0;
+	}
+	.swipecard_wrapper{
+		width: 100%;
+		height: 100%;
+		background: url(assets/image/swipe_card/bg_game.png) no-repeat center / cover;
+	}
+	.header_wrapper{
+		width: 100%;
+	    /*height: 100%;*/
+	}
+	.header_wrapper .top{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.header_wrapper .bottom{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		transform: rotate(180deg);
+	}
+	.level_live_wrapper{
+		position: relative;
+	    padding: 1.5rem 2.5rem 0;
+	    color: #FFF;
+	    font-weight: bold;
+	    font-size: 1.3em;
+	}
+	.level_live_wrapper p{
+		display: inline-block;
+	}
+	.heart_wrapper{
+		float: right;
+		height: 1.5em;
+	}
+	.heart_wrapper img{
+		width: auto;
+		height: 100%;
+		margin: 0 2px;
+	}
+	.progress_wrapper{
+		width: 100%;
+	    height: 1em;
+	    padding: 0.25rem;
+	    margin-top: 0.5em;
+	    background: #FFF;
+	    border-radius: 50px;
+	    border: solid 2px #35639C;
+	}
+	.progressbar_background{
+		width: 100%;
+	    height: 100%;
+	    background: #35639C;
+	    border-radius: 50px;
+	}
+	.progressbar{
+		width: 100%;
+	    height: 100%;
+	    background: #FD4139;
+	    border-radius: 50px;
+	    transition: width 0s;
+	}
+	.card_wrapper{
+		width: 100%;
+		height: 75%;
+	}
+	.cardparent{
+		width: 100%;
+		height: 100%;
+		padding: 2rem 0;
+	}
+	.button_wrapper{
+		position: relative;
+		padding: 0 2em;
+	}
+	.card{
+		width: 95%;
+	    height: 99%;
+	    background: #FFF;
+	    border: solid 0.25em #B9D9F5;
+	    border-radius: 1em;
+	    margin: 0 auto;
+	    transform: scale(0.95);
+	    transition: border 0.5s;
+	}
+	.card img{
+		margin-top: 2rem;
+	}
+	.card p{
+		padding: 2rem;
+	    text-align: center;
+	    overflow-y: auto;
+	}
+	.border_active{
+		border: solid 0.25em #1D8BEC;
+		transform: scale(1);
+		transition: transform 0.5s;
+	}
+
+	#popupFeedbackCard .modal_wrapper{
+		width: 100%;
+		height: 100%;
+		background: #FFF;
+		display: flex;
+		flex-flow: column;
+	}
+	#popupFeedbackCard .title_wrapper{
+		margin-top: 1em;
+		text-align: center;
+	}
+	#popupFeedbackCard .tahap{
+		color: #7DA8CE;
+		font-size: 1em;
+	}
+	#popupFeedbackCard .title{
+		color: #004C90;
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	#popupFeedbackCard .text_wrapper{
+		width: 100%;
+		height: 100%;
+	    margin: 1.5rem 0 0;
+	    padding: 0 2em 1.5em;
+	    overflow-y: hidden;
+	}
+	#popupFeedbackCard .text_parent{
+		width: 100%;
+		height: 100%;
+	}
+	#popupFeedbackCard #video{
+		width: 100%;
+		height: auto;
+	}
+	/*#popupFeedbackCard .button_wrapper{
+		position: absolute;
+	    width: 100%;
+	    bottom: 2em;
+	    padding: 0 2em;
+	}*/
+	#popupFeedbackCard .button_wrapper{
+		margin-bottom: 1em;
+	}
+	#popupFeedbackCard .slick-dots{
+		bottom: -2em !important;
+	}
+	#popupFeedbackCard .slick-dots li{
+		width: 16px !important;
+	}
+	#popupFeedbackCard .slick-dots li button{
+		width: 16px !important;
+	}
+	#popupFeedbackCard .slick-dots li button:before{
+		width: 16px !important;
+	}
+	#popupFeedbackCard .slick-dots li.slick-active button:before{
+		background: #32649C;
+	}
+</style>
+<div class="swipecard_wrapper">
+	<div class="header_wrapper">
+		<div class="bg_header">
+			<img class="top" src="assets/image/swipe_card/bg.png">
+			<img class="bottom" src="assets/image/swipe_card/bg.png">
+		</div>
+		<div class="level_live_wrapper">
+			<p></p>
+			<div class="heart_wrapper">
+				<img src="assets/image/slider/object_2.png">
+			</div>
+			<div class="progress_wrapper">
+				<div class="progressbar_background">
+					<div class="progressbar">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card_wrapper">
+		<div class="cardparent">
+			<div class="card" style="box-sizing: border-box !important;">
+				<img src="assets/image/slider/object_2.png" style="">
+				<p></p>
+			</div>
+		</div>
+	</div>
+	<div class="button_wrapper">
+		<button class="button btn-standard btn-standard--3d btn_submit">SUBMIT</button>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+{
+	"background":"white no-repeat bottom / cover",
+	"list_slider":
+	[
+		{
+			"type":"video",
+			"image":"MG_CIMB_3D_1313.02_InGame_Opening_v.0.0.0.1_quiz_swipe.mp4",
+			"image_click":true,
+			"text":"Untuk mendapatkan apa saja tahapan dalam transformasi digital, kita akan melakukan sebuah permainan. Persiapkan dirimu."
+		}
+	]
+}

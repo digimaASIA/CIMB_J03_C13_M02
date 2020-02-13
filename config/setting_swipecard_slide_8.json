@@ -1,0 +1,312 @@
+{
+	"settings":{
+		"life":3,
+		"duration":60,
+		"random":false,
+		"backslide":5
+	},
+	"list_card":[
+		{
+			"index":0,
+			"list_card":[
+				{
+					"index":0,
+					"image":"card-01.png",
+					"text":"Perusahaan menganggap kondisi terkini adalah yang terbaik, tanpa dibayang-bayangi ketakutan akan adanya perubahan yang harus dicermati."
+				},
+				{
+					"index":1,
+					"image":"card-02.png",
+					"text":"Inisiatif, eksperimen-eksperimen kecil, dan ide-ide kreatif mulai sering didiskusikan dan mendapatkan ruang dari manajemen."
+				},
+				{
+					"index":2,
+					"image":"card-03.png",
+					"text":"Eksperimen-eksperimen yang berhasil mulai mendapatkan dukungan sumber daya yang dibutuhkan dari manajemen."
+				},
+				{
+					"index":3,
+					"image":"card-04.png",
+					"text":"Kolaborasi mulai dilakukan dan dihasilkannya rencana strategis pelaksanaan."
+				},
+				{
+					"index":4,
+					"image":"card-05.png",
+					"text":"Dibentuknya tim yang didedikasikan untuk mengelola transformasi."
+				},
+				{
+					"index":5,
+					"image":"card-06.png",
+					"text":"Transformasi mulai membudaya dan menjadi topik di setiap pertemuan."
+				}
+			],
+			"jawaban":[0],
+			"title_feedback":"Business as Usual",
+			"feedback":[
+				{
+					"image":"01-a.mp4",
+					"text":"Kondisi awal, dimana perusahaan bekerja dengan asumsi bahwa kondisi terkini adalah yang paling baik dan kompetitif.<br><br>Dalam kondisi ini, budaya \"<i>status-quo</i>\" terjadi, dimana kondisi stabil cenderung dipertahankan apa adanya."
+				},
+				{
+					"image":"01-b.mp4",
+					"text":"Seluruh individu dalam organisasi bekerja sebagaimana adanya - \"<i>business as usual</i>\", tanpa dibayang-bayangi ketakutan akan adanya perubahan yang harus dicermati<br><br>Sistem <i>legacy</i> ini menjadi situasi yang dibanggakan oleh perusahaan."
+				}
+			]
+		},
+		{
+			"index":1,
+			"list_card":[
+				{
+					"index":0,
+					"image":"card-01.png",
+					"text":"Perusahaan menganggap kondisi terkini adalah yang terbaik, tanpa dibayang-bayangi ketakutan akan adanya perubahan yang harus dicermati."
+				},
+				{
+					"index":1,
+					"image":"card-02.png",
+					"text":"Inisiatif, eksperimen-eksperimen kecil, dan ide-ide kreatif mulai sering didiskusikan dan mendapatkan ruang dari manajemen."
+				},
+				{
+					"index":2,
+					"image":"card-03.png",
+					"text":"Eksperimen-eksperimen yang berhasil mulai mendapatkan dukungan sumber daya yang dibutuhkan dari manajemen."
+				},
+				{
+					"index":3,
+					"image":"card-04.png",
+					"text":"Kolaborasi mulai dilakukan dan dihasilkannya rencana strategis pelaksanaan."
+				},
+				{
+					"index":4,
+					"image":"card-05.png",
+					"text":"Dibentuknya tim yang didedikasikan untuk mengelola transformasi."
+				},
+				{
+					"index":5,
+					"image":"card-06.png",
+					"text":"Transformasi mulai membudaya dan menjadi topik di setiap pertemuan."
+				}
+			],
+			"jawaban":[1],
+			"title_feedback":"Present and active",
+			"feedback":[
+				{
+					"image":"02-a.mp4",
+					"text":"Beberapa eksperimen kecil mulai sering dilakukan oleh sejumlah individu atau unit perusahaan karena adanya fenomena teknologi termutakhir."
+				},
+				{
+					"image":"02-b.mp4",
+					"text":"Inisiatif untuk memperbaiki proses bisnis mulai banyak bermunculan. Ide-ide kreatif dari berbagai pihak menjadi pembahasan serius dalam pertemuan strategis di perusahaan."
+				},
+				{
+					"image":"02-c.mp4",
+					"text":"Pimpinan perusahaan memberikan ruang secara bebas bagi individu untuk mengkomunikasi usulan-usulan perbaikan yang disarankan"
+				}
+			]
+		},
+		{
+			"index":2,
+			"list_card":[
+				{
+					"index":0,
+					"image":"card-01.png",
+					"text":"Perusahaan menganggap kondisi terkini adalah yang terbaik, tanpa dibayang-bayangi ketakutan akan adanya perubahan yang harus dicermati."
+				},
+				{
+					"index":1,
+					"image":"card-02.png",
+					"text":"Inisiatif, eksperimen-eksperimen kecil, dan ide-ide kreatif mulai sering didiskusikan dan mendapatkan ruang dari manajemen."
+				},
+				{
+					"index":2,
+					"image":"card-03.png",
+					"text":"Eksperimen-eksperimen yang berhasil mulai mendapatkan dukungan sumber daya yang dibutuhkan dari manajemen."
+				},
+				{
+					"index":3,
+					"image":"card-04.png",
+					"text":"Kolaborasi mulai dilakukan dan dihasilkannya rencana strategis pelaksanaan."
+				},
+				{
+					"index":4,
+					"image":"card-05.png",
+					"text":"Dibentuknya tim yang didedikasikan untuk mengelola transformasi."
+				},
+				{
+					"index":5,
+					"image":"card-06.png",
+					"text":"Transformasi mulai membudaya dan menjadi topik di setiap pertemuan."
+				}
+			],
+			"jawaban":[2],
+			"title_feedback":"Formalized",
+			"feedback":[
+				{
+					"image":"03-a.mp4",
+					"text":"Eksperimen-eksperimen kecil yang berhasil dan memberikan dampak positif mulai dikaji kelayakan implementasinya secara masif."
+				},
+				{
+					"image":"03-b.mp4",
+					"text":"Serangkaian rapat atau pertemuan resmi dengan pimpinan dan manajemen untuk mengimplementasikan ide-ide berbasis eksperimen mulai dilakukan."
+				},
+				{
+					"image":"03-c.mp4",
+					"text":"Komitmen penuh diberikan oleh pimpinan dan manajemen dalam bentuk penyediaan sumber daya yang diperlukan untuk mengimplementasikan ide kreatif dan inovatif."
+				}
+			]
+		},
+		{
+			"index":3,
+			"list_card":[
+				{
+					"index":0,
+					"image":"card-01.png",
+					"text":"Perusahaan menganggap kondisi terkini adalah yang terbaik, tanpa dibayang-bayangi ketakutan akan adanya perubahan yang harus dicermati."
+				},
+				{
+					"index":1,
+					"image":"card-02.png",
+					"text":"Inisiatif, eksperimen-eksperimen kecil, dan ide-ide kreatif mulai sering didiskusikan dan mendapatkan ruang dari manajemen."
+				},
+				{
+					"index":2,
+					"image":"card-03.png",
+					"text":"Eksperimen-eksperimen yang berhasil mulai mendapatkan dukungan sumber daya yang dibutuhkan dari manajemen."
+				},
+				{
+					"index":3,
+					"image":"card-04.png",
+					"text":"Kolaborasi mulai dilakukan dan dihasilkannya rencana strategis pelaksanaan."
+				},
+				{
+					"index":4,
+					"image":"card-05.png",
+					"text":"Dibentuknya tim yang didedikasikan untuk mengelola transformasi."
+				},
+				{
+					"index":5,
+					"image":"card-06.png",
+					"text":"Transformasi mulai membudaya dan menjadi topik di setiap pertemuan."
+				}
+			],
+			"jawaban":[3],
+			"title_feedback":"Strategic",
+			"feedback":[
+				{
+					"image":"04-a.mp4",
+					"text":"Unit-unit organisasi mulai memahami pentingnya kolaborasi yang dilakukan, seperti: riset bersama, berbagi gagasan, eksperimen produk atau layanan, dan lain sebagainya."
+				},
+				{
+					"image":"04-b.mp4",
+					"text":"Hal-hal yang dilakukan selalu mengarah pada penciptaan nilai tambah yang ada dalam roadmap transformasi digital yang dikembangkan perusahaan."
+				},
+				{
+					"image":"04-c.mp4",
+					"text":"Hasil dari tahap ini adalah rencana strategis implementasi yang selaras dengan rencana transformasi perusahaan."
+				}
+			]
+		},
+		{
+			"index":4,
+			"list_card":[
+				{
+					"index":0,
+					"image":"card-01.png",
+					"text":"Perusahaan menganggap kondisi terkini adalah yang terbaik, tanpa dibayang-bayangi ketakutan akan adanya perubahan yang harus dicermati."
+				},
+				{
+					"index":1,
+					"image":"card-02.png",
+					"text":"Inisiatif, eksperimen-eksperimen kecil, dan ide-ide kreatif mulai sering didiskusikan dan mendapatkan ruang dari manajemen."
+				},
+				{
+					"index":2,
+					"image":"card-03.png",
+					"text":"Eksperimen-eksperimen yang berhasil mulai mendapatkan dukungan sumber daya yang dibutuhkan dari manajemen."
+				},
+				{
+					"index":3,
+					"image":"card-04.png",
+					"text":"Kolaborasi mulai dilakukan dan dihasilkannya rencana strategis pelaksanaan."
+				},
+				{
+					"index":4,
+					"image":"card-05.png",
+					"text":"Dibentuknya tim yang didedikasikan untuk mengelola transformasi."
+				},
+				{
+					"index":5,
+					"image":"card-06.png",
+					"text":"Transformasi mulai membudaya dan menjadi topik di setiap pertemuan."
+				}
+			],
+			"jawaban":[4],
+			"title_feedback":"Converged",
+			"feedback":[
+				{
+					"image":"05-a.mp4",
+					"text":"Perusahaan membentuk tim atau unit khusus yang didedikasikan untuk memimpin serta mengelola transformasi digital yang bertugas menyusun strategi perencanaan dan operasional pelaksanaan transformasi digital agar berlangsung secara efektif."
+				},
+				{
+					"image":"05-b.mp4",
+					"text":"Perusahaan mulai membangun infrastruktur yang diperlukan untuk melaksanakan tranformasi secara cepat, fleksibel, dan masif."
+				},
+				{
+					"image":"05-c.mp4",
+					"text":"Budaya bertransformasi menjadi bagian dari aktivitas sehari-hari seluruh individu dalam perusahaan."
+				}
+			]
+		},
+		{
+			"index":5,
+			"list_card":[
+				{
+					"index":0,
+					"image":"card-01.png",
+					"text":"Perusahaan menganggap kondisi terkini adalah yang terbaik, tanpa dibayang-bayangi ketakutan akan adanya perubahan yang harus dicermati."
+				},
+				{
+					"index":1,
+					"image":"card-02.png",
+					"text":"Inisiatif, eksperimen-eksperimen kecil, dan ide-ide kreatif mulai sering didiskusikan dan mendapatkan ruang dari manajemen."
+				},
+				{
+					"index":2,
+					"image":"card-03.png",
+					"text":"Eksperimen-eksperimen yang berhasil mulai mendapatkan dukungan sumber daya yang dibutuhkan dari manajemen."
+				},
+				{
+					"index":3,
+					"image":"card-04.png",
+					"text":"Kolaborasi mulai dilakukan dan dihasilkannya rencana strategis pelaksanaan."
+				},
+				{
+					"index":4,
+					"image":"card-05.png",
+					"text":"Dibentuknya tim yang didedikasikan untuk mengelola transformasi."
+				},
+				{
+					"index":5,
+					"image":"card-06.png",
+					"text":"Transformasi mulai membudaya dan menjadi topik di setiap pertemuan."
+				}
+			],
+			"jawaban":[5],
+			"title_feedback":"Innovative and adaptive",
+			"feedback":[
+				{
+					"image":"06-a.mp4",
+					"text":"Transformasi digital yang telah membudaya menjadi topik yang senantiasa mewarnai berbagai rapat dan proses pengambilan keputusan. Produk-produk dan layanan-layanan berbasis teknologi dihasilkan secara konsisten oleh perusahaan."
+				},
+				{
+					"image":"06-b.mp4",
+					"text":"Ekosistem baru yang memungkinkan terjadinya percepatan transformasi secara fleksibel dan akseleratif tercipta di dalam lingkungan perusahaan."
+				},
+				{
+					"image":"06-c.mp4",
+					"text":"Pimpinan dan manajemen perusahaan berperan secara strategis dalam menghadapi fenomena perubahan yang terjadi secara konstan dan dinamis."
+				}
+			]
+		}
+	]
+}

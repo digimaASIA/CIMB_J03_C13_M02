@@ -1,0 +1,90 @@
+<style type="text/css">
+    <!-- Css stage_brankas -->
+    .stage_brankas_wrapper .header_wrapper{
+        background: url(assets/image/stage_brankas/header_brankas.png);
+        background-size: 100% 100%;
+        height: 9vh;
+    }
+    .stage_brankas_wrapper .header_wrapper p{
+        text-align: center;
+        color: #fff;
+        font-size: 2.1vh;
+        font-weight: bold;
+        height: 100%;
+        padding: 1vh;
+    }
+    .star_wrapper{
+        background: url(assets/image/stage_brankas/lamp-socket.png);
+        background-size: 100% 100%;
+        height: 8.1%;
+        width: 33.6%;
+        margin: 2vh auto;
+        position: relative;
+    }
+    .star_wrapper .star{
+        background: url(assets/image/stage_brankas/lamp-kosong.png);
+        background-size: 100% 100%;
+        width: 12%;
+        height: 26%;
+        display: inline-block;
+    }
+    .star_wrapper .star:nth-child(1){
+        margin-left: 15%;
+    }
+    .star_wrapper .star.complete{
+        background: url(assets/image/stage_brankas/lamp-complete.png);
+        background-size: 100% 100%;
+    }
+    .star_wrapper .star.fail{
+        background: url(assets/image/stage_brankas/lamp-fail.png);
+        background-size: 100% 100%;
+    }
+    .stage_brankas_wrapper{
+        display: block;background:url('assets/image/stage_brankas/bg-stage02-vault.png');
+        background-size: 100% 100%;
+        position: relative;
+        padding: 0 !important;
+    }
+    .stage_brankas{
+        width: 100%;
+        position: relative;
+        padding: 7vh 0;
+    }
+    .stage_b:nth-child(odd){
+        padding: 0 9.76% 4% 5.38%;
+    }
+    .stage_b:nth-child(even){
+        padding: 0 5.38% 4% 9.76%;
+    }
+    <!-- End css stage_brankas -->
+</style>
+<div class="slider-content noselect" data-role="page" data-prev="" data-next="" current_sub="0" index="-1" id="result">
+    <div class="stage_brankas_wrapper" style="">
+        <div></div>
+        <div class="header_wrapper">
+            <p>KUNCI KEBERHASILAN <br>TRANSFORMASI DIGITAL</p>
+        </div>
+        <div class="star_wrapper" style="">
+            <div style="
+                position: absolute;
+                top: 29%;
+                width: 100%;
+                height: 100%;
+            ">
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+            </div>
+        </div>
+        <div class="stage_brankas">
+            <div class="stage_b col-xs-6" id="stage_b-1" index="1"><img src="assets/image/stage_brankas/handle-kiri-lock.png" style="width:100%;"></div>
+            <div class="stage_b col-xs-6" id="stage_b-2" index="2"><img src="assets/image/stage_brankas/handle-kanan-lock.png" style="width:100%;"></div>
+            <div class="stage_b col-xs-6" id="stage_b-3" index="3"><img src="assets/image/stage_brankas/handle-kiri-lock.png" style="width:100%;"></div>
+            <div class="stage_b col-xs-6" id="stage_b-4" index="4"><img src="assets/image/stage_brankas/handle-kanan-lock.png" style="width:100%;"></div>
+            <div class="stage_b col-xs-6" id="stage_b-5" index="5"><img src="assets/image/stage_brankas/handle-kiri-lock.png" style="width:100%;"></div>
+            <div class="stage_b col-xs-6" id="stage_b-6" index="6"><img src="assets/image/stage_brankas/handle-kanan-lock.png" style="width:100%;"></div>
+        </div>
+    </div>
+</div>

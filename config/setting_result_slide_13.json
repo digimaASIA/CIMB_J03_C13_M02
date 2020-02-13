@@ -1,0 +1,20 @@
+{
+	"score":true,
+	"win":{
+		"ribbon":"congrat.png",
+		"background":"MC_BEATS_C01M03_Win_v.0.0.0.1.mp4",
+		"description":{
+			"text":"<i>File</i> berisi peta lokasi rahasia berhasil kamu dapatkan! Gunakanlah informasi ini untuk melancarkan misimu melindungi kota.",
+			"css":{
+				"color":"#000",
+				"background":"#FFF",
+				"border":"solid 1px #8BB2E6",
+				"border-radius":"12px"
+			}
+		},
+		"score_css":{
+			"color":"#000",
+			"background":"#FFF"
+		}
+	}
+}

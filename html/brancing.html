@@ -1,0 +1,213 @@
+<style type="text/css">
+	.brancing_wrapper{
+		width: 100%;
+		height: 100%;
+		padding: 2.1220159151193636vh 3.183023872679045vh 3.183023872679045vh 3.183023872679045vh;
+	}
+	.indicator_wrapper{
+		position: relative;
+	    width: 100%;
+	    background: #FFF;
+	    border: solid 1px #8BB2E6;
+	    border-radius: 5.305039787798409vh;
+	    z-index: 99;
+	    padding: 0.5305039787798409vh;
+	}
+	.indicator_wrapper p{
+		position: absolute;
+	    width: 100%;
+	    padding: 0em 2em 0em 3.000em;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    font-size: 0.750em;
+	    z-index: 10;
+	}
+	.indicator_wrapper .indicator{
+		position: relative;
+	    width: 100%;
+	    color: #0C1E48;
+	    background: #1F8F6F;
+	    padding: 0.250em 0em;
+	    border-radius: 5.305039787798409vh;
+	    font-size: 0.750em;
+	    font-weight: bold;
+	}
+	.indicator_wrapper .indicator p{
+		position: absolute;
+	    width: max-content;
+	    margin: 0;
+	    padding: 0em 2em 0em 3.000em;
+	    top: 50%;
+	    left: 0;
+	    transform: translateY(-50%);
+	}
+	.indicator_wrapper .image_indicator{
+		position: absolute;
+		width: 4.244031830238727vh;
+		top: 50%;
+	    left: 0px;
+	    border-radius: 50%;
+	    transform: translate(-50%,-50%);
+	}
+	.indicator_wrapper .image_indicator img{
+		width: 100%;
+		background: #FFF;
+		border-radius: 50%;
+	}
+	.indicator_wrapper.text .indicator{
+		padding: 0.750em 0em;
+	}
+	.indicator_wrapper.text .image_indicator{
+		width: 6.36604774535809vh;
+		border: solid 1px #8BB2E6;
+	    top: 0px;
+	    left: -8px;
+	    transform: none;
+	}
+	.indicator_wrapper.text .image_indicator img{
+		border: solid 4px #FFF;
+	}
+	.video_wrapper{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+	.video_wrapper .img_soal{
+		position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    left: 0;
+	    top: 0;
+	    object-fit: cover;
+	    display: none;
+	}
+	.bg_name_text_wrapper{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background: #00000063;
+		display: none;
+	}
+	.name_text_wrapper{
+		position: absolute;
+	    width: 100%;
+	    bottom: 0;
+	    left: 0;
+	    padding: 2.1220159151193636vh 3.183023872679045vh 3.183023872679045vh 3.183023872679045vh;
+	}
+	.name_text_wrapper .name_wrapper{
+		position: absolute;
+		display: inline-block;
+		width: auto;
+		color: #FFF;
+		background: #e31e1e;
+		padding: 1.0610079575596818vh 2.1220159151193636vh;
+		border-radius: 40px;
+		z-index: 1;
+		transform: translate(0%,-50%);
+		text-align: center;
+		line-height: normal;
+		vertical-align: middle;
+	}
+	.name_text_wrapper .name_wrapper.left{
+		left: 15%;
+	}
+	.name_text_wrapper .name_wrapper.center{
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.name_text_wrapper .name_wrapper.right{
+		right: 15%;
+	}
+	.name_text_wrapper .name_wrapper img{
+		width: 25%;
+	}
+	.name_text_wrapper .text_wrapper{
+		position: relative;
+	    width: 100%;
+	    min-height: 15.251989389920425vh;
+	    background: #FFF;
+	    padding: 3.183023872679045vh;
+	    border: solid 1px #8BB2E6;
+	    border-radius: 16px;
+	    top: 50%;
+	    text-align: center;
+	}
+	.name_text_wrapper .progress_wrapper{
+		width: 100%;
+	    border: solid 4px #FFF;
+	    background: #FFF;
+	    border-radius: 8px;
+	    margin: 1.0610079575596818vh 0px;
+	}
+	.name_text_wrapper .progress_wrapper .progress_bar{
+		width: 100%;
+	    height: 0.5305039787798409vh;
+	    background: #E72330;
+	    border-radius: 8px;
+	}
+	.name_text_wrapper .choice_wrapper{
+		width: 100%;
+	}
+	.name_text_wrapper .choice_wrapper .choice{
+		background: #FFF;
+		margin: 1.0610079575596818vh 0px;
+	    padding: 2.1220159151193636vh 3.183023872679045vh;
+	    border: solid 1px #8BB2E6;
+	    border-radius: 16px;
+	    text-align: center;
+	}
+	#video{
+		position: absolute;
+	}
+	.benar{
+		background: #5DCB61 !important;
+		color: #FFF;
+	}
+	.salah{
+		background: #FF2C24 !important;
+		color: #FFF;
+	}
+</style>
+<div class="brancing_wrapper">
+	<div class="indicator_wrapper">
+		<p></p>
+		<div class="indicator">
+		</div>
+		<div class="image_indicator">
+			<img src="assets/image/brancing/happy.png">
+		</div>
+	</div>
+	<div class="video_wrapper">
+		<video id="video" poster="assets/image/slider/object_2.png" controlsList="nodownload" playsinline loop>
+			<source src="assets/video/video.mp4" type="video/mp4">
+		</video>
+		<img class="img_soal" src="assets/image/brancing/haljud.png">
+		<div class="name_text_wrapper">
+			<div class="name_wrapper">
+				<span class="name"></span>
+				<img src="assets/image/brancing/#">
+			</div>
+			<div class="text_wrapper"></div>
+		</div>
+	</div>
+	<div class="bg_name_text_wrapper animated fadeIn">
+		<div class="name_text_wrapper animated slideInUp">
+			<div class="name_wrapper">
+				<span class="name"></span>
+				<img src="assets/image/brancing/#">
+			</div>
+			<div class="text_wrapper"></div>
+			<div class="progress_wrapper">
+				<div class="progress_bar"></div>
+			</div>
+			<div class="choice_wrapper">
+				<div class="choice"></div>
+			</div>
+		</div>
+	</div>
+</div>

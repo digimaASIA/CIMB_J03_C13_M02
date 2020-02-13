@@ -1,0 +1,27 @@
+{
+	"type":"slider_scoring",
+	"background":"white no-repeat bottom / cover",
+	"list_slider":
+	[
+		{
+			"video_potrait":"MC_CIMB_3D_1313.02_03_v.0.0.0.1.mp4",
+			"text":"Seberapa sering sih kalian membuka media sosial saat bangun tidur?"
+		},
+		{
+			"video_potrait":"MC_CIMB_3D_1313.02_04_v.0.0.0.1.mp4",
+			"text":"Seberapa sering sih kalian menggunakan fitur <i>chat bot</i>?"
+		},
+		{
+			"video_potrait":"MC_CIMB_3D_1313.02_05_v.0.0.0.1.mp4",
+			"text":"Seberapa sering sih kalian mencari informasi penginapan di <i>e-commerce</i>?"
+		},
+		{
+			"video_potrait":"MC_CIMB_3D_1313.02_06_v.0.0.0.1.mp4",
+			"text":"Seberapa sering kalian membeli barang lewat <i>e-commerce</i>?"
+		},
+		{
+			"video_potrait":"MC_CIMB_3D_1313.02_07_v.0.0.0.1.mp4",
+			"text":"Seberapa sering kalian menonton film di aplikasi <i>streaming</i>?"
+		}
+	]
+}

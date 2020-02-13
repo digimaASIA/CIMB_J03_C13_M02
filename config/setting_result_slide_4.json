@@ -1,0 +1,39 @@
+{
+	"score":true,
+	"kurang":{
+		"header":{
+			"text":"Berikut hasil penilaian <br>seberapa digitalkah kamu.",
+			"css":""
+		},
+		"ribbon":"congrat.png",
+		"ribbon_text":{
+			"text":"Kamu Kurang Digital",
+			"css":""
+		},
+		"background":"MC_CIMB_3D_1313.02_08_v.0.0.0.1_kurang.mp4"
+	},
+	"cukup":{
+		"header":{
+			"text":"Berikut hasil penilaian <br>seberapa digitalkah kamu.",
+			"css":""
+		},
+		"ribbon":"congrat.png",
+		"ribbon_text":{
+			"text":"Kamu Cukup Digital",
+			"css":""
+		},
+		"background":"MC_CIMB_3D_1313.02_09_v.0.0.0.1_cukup.mp4"
+	},
+	"sangat":{
+		"header":{
+			"text":"Berikut hasil penilaian <br>seberapa digitalkah kamu.",
+			"css":""
+		},
+		"ribbon":"congrat.png",
+		"ribbon_text":{
+			"text":"Kamu Sangat Digital",
+			"css":""
+		},
+		"background":"MC_CIMB_3D_1313.02_10_v.0.0.0.1_sangat.mp4"
+	}
+}

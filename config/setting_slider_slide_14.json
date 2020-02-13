@@ -1,0 +1,12 @@
+{
+	"background":"white no-repeat bottom / cover",
+	"list_slider":
+	[
+		{
+			"type":"video",
+			"image":"MC_CIMB_GI_5501.04_Opening_01_v.0.0.0.1.mp4",
+			"image_click":true,
+			"text":"Gawat! <i>File</i> yang berisi informasi peta rahasia tertinggal. Sebaiknya, kamu ambil <i>file</i> itu agar misimu berjalan lancar."
+		}
+	]
+}

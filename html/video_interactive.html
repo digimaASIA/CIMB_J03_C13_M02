@@ -1,0 +1,87 @@
+<style type="text/css">
+	.video_wrapper{
+		width: 100%;
+		height: 100%;
+	}
+	#video{
+		display: none;
+		object-fit: cover;
+	}
+	#gesture{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	.btn_play{
+		display: none;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+	.btn_play img{
+		position: absolute;
+	    width: 25%;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+	.button_wrapper{
+		display: none;
+		position: absolute;
+	    bottom: 5%;
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+	.deg_wrapper{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.5);
+		top: 0;
+		left: 0;
+		z-index: 2;
+		animation-name: brightness;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	.deg{
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0;
+	}
+
+	@-webkit-keyframes brightness {
+		from {background: rgba(0,0,0,0.5);}
+		to {background: rgba(0,0,0,0.2);}
+	}
+
+	/* Standard syntax */
+	@keyframes brightness {
+		from {background: rgba(0,0,0,0.5);}
+		to {background: rgba(0,0,0,0.2);}
+	}
+</style>
+<div class="video_wrapper">
+	<video controls id="video" playsinline>
+		<source src="assets/video/video.mp4" type="video/mp4">
+	</video>
+	<!-- <video controlsList="nodownload" id="video" playsinline>
+		<source src="assets/video/video.mp4" type="video/mp4">
+	</video> -->
+	<div class="btn_play">
+		<img src="assets/image/slider/triangle.png">
+	</div>
+	<div id="gesture">
+		<img class="hand" src="assets/image/slider/object_2.png" style="width: 100%;max-width: 160px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 3;">
+	</div>
+	<div class="button_wrapper">
+		<button class="btn-standard btn-standard--submit2 nextgame">NEXT</button>
+	</div>
+</div>

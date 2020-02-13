@@ -1,0 +1,170 @@
+<link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css"/>
+<style type="text/css">
+  .video_potrait{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .bg-video_popotrait{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    }
+    .segitiga_wrapper{
+      position: absolute;
+      width: 10.610079575596817vh;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #video_slider{
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+    }
+    #igf_slider{
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+    }
+    .text_wrapper{
+      position: absolute;
+      width: 90%;
+      height: auto;
+      margin-bottom: 2em;
+      padding: 1.5em;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #FFF;
+      border-radius: 1em;
+    }
+
+    .button_wrapper{
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .img_wrapper{
+      height: 100%;
+    }
+    .img_slider{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .rb-wrap{
+      top: 5%;
+    }
+    .ribbon_header{
+      background: url("assets/image/slider/bg_ribbon_quiztime.png") no-repeat center / contain;
+    }
+
+    /*Css btn_scoring_wrapper*/
+      .btn_scoring_wrapper{
+          padding-top: 3.6vh;
+          width: 100%;
+      }
+      .btn_scoring{
+          display: inline-block;
+          width: 19%;
+          height: 7.2vh;
+      }
+      .btn_scoring:hover {
+          opacity: 0.7; 
+      }
+      .btn_scoring.active{
+          opacity: 0.7;
+      }
+      #btn_scoring-1{
+          background: #E32A4C;
+          border-top-left-radius: 16px;
+          border-bottom-left-radius: 16px;
+      }
+      #btn_scoring-2{
+          background: #ED793B;
+      }      
+      #btn_scoring-3{
+          background: #E3D33D;
+      }      
+      #btn_scoring-4{
+          background: #7BCC66;
+      }      
+      #btn_scoring-5{
+          background: #1EBCA1;
+          border-top-right-radius: 16px;
+          border-bottom-right-radius: 16px;
+      }   
+      .btn_scoring_text{
+          width: 100%;
+      }
+      .btn_scoring_text div{
+          display:inline-block;
+          width:49%;
+          font-weight: bold;
+          font-size: 2.1vh;
+      }            
+    /*End css btn_scoring_wrapper*/
+</style>
+<div class="slider-content" style="background: url('assets/image/slider/bg.png') white no-repeat bottom; background-size: cover;">
+  <div class="wrap" style="padding: 0;">
+    <div>
+      <ul id="ulasan" style="margin: 0;height: 100%;">
+        <li class="list_slider" style="position: relative;">
+          <div class="video_potrait">
+            <div class="bg-video_popotrait" style="display:none;">
+              <div class="segitiga_wrapper">
+                <img src="assets/image/slider/triangle.png" style="width: 100%;">
+              </div>
+            </div>
+            <video controlsList="nodownload" id="video_slider" playsinline poster="assets/image/slider/object_2.png">
+              <source src="assets/video/video.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="rb-wrap">
+            <p class="ribbon_header" style="">
+              <strong class="ribbon-content">Pita Tiga Dimensi</strong>
+            </p>
+          </div>
+          <div class="img_wrapper">
+            <!-- <img class="img_slider" src="#"> -->
+            <video controlsList="nodownload" id="igf_slider" playsinline autoplay loop>
+              <source src="#" type="video/mp4">
+            </video>
+          </div>
+          <div class="text_wrapper">
+            <p class="keterangan" style="margin: 0;"></p>
+            <div class="btn_scoring_wrapper" style="">
+                <div class="btn_scoring" id="btn_scoring-1" index="1" style=""></div>
+                <div class="btn_scoring" id="btn_scoring-2" index="2" style=""></div>
+                <div class="btn_scoring" id="btn_scoring-3" index="3" style=""></div>
+                <div class="btn_scoring" id="btn_scoring-4" index="4" style=""></div>
+                <div class="btn_scoring" id="btn_scoring-5" index="5" style=""></div>
+            </div>
+            <div class="btn_scoring_text">
+              <div class="bst_left" style="text-align:left;">Sangat jarang</div>
+              <div class="bst_right" style="text-align:right;">Sangat sering</div>
+            </div>
+            <div class="button_wrapper" style="position: relative;margin-top: 1.5em;">
+                <button class="button btn-standard btn-long btn-standard--submit2">
+                            NEXT
+                </button>
+            </div>
+          </div>
+          <div class="button_wrapper">
+                        <button class="button btn-standard btn-long btn-standard--submit">
+                          NEXT
+                        </button>
+                    </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
