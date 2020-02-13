@@ -3054,6 +3054,8 @@ quizVisnov.prototype.setTutorial = function() {
         // });
         $("#tutorial .tutorial.visnov").find(".start-game").click(function(e){
             game.show_tutorial_visnov = 1;
+            $("#tutorial .tutorial.visnov").removeClass("done");
+            $("#tutorial .tutorial.visnov").removeClass("active");
             $("#tutorial").modal('hide');
 
             // $this.stage_brankas();

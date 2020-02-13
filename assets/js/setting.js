@@ -41,12 +41,12 @@ var Setting = function(){
 
       //setting start slide from oage
       this.slide_result_per_step = 9; //variabel untuk menentukan slide pertama result step
-      this.slide_result = 15; //variabel untuk menentukan slide ke-n dari page result
+      this.slide_result = 14; //variabel untuk menentukan slide ke-n dari page result
       this.slide_game_map = 6; //variabel untuk menentukan slide ke-n dari page game map
       this.slide_slider_feedback_after_stage = 15;
       this.slide_stage_brankas = 12;
       this.arr_slide_quiz_n = [7,10]; //array slide quiz ke-n
-      this.slide_quiz_visnov = 13;
+      this.slide_quiz_visnov = 12;
       /*End setting able variable*/
 
    /*Setting page stage ular tangga*/
