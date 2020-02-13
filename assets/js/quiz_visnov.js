@@ -3187,6 +3187,9 @@ quizVisnov.prototype.sliderPopup = function() {
     console.log($("#popupList-2").find(".slider_wrapper"));
     let slider_length = $("#popupList-2").find(".slider_wrapper").length;
     console.log(slider_length);
+    if(slider_length == 1){
+        $("#popupList-2 .start-game-quiz").show();
+    }
     $("#popupList-2").find(".slider_wrapper").on("afterChange", function(event, slick, currentSlide, nextSlide){
         console.log(event);
         console.log(slick);

@@ -32,7 +32,12 @@ ResultStage.prototype.setResult = function() {
 	var isScore = ($this.score == true ? true : false);
 	// get last game from scorm
 	/*comment by elim*/
-	var game_quiz = game.scorm_helper.getQuizResult(["game_slide_"+$this.setting_global["slide_quiz_visnov"]]);
+	// console.log($this.game_data);
+	let slide = 8; //slide quiz swipe card
+	if($this.game_data["selected_stage"] == 2){
+		slide = 12; //slide quiz visnov
+	}
+	var game_quiz = game.scorm_helper.getQuizResult(["game_slide_"+slide]);
 	console.log(game_quiz);
 	// var game_quiz = {"score":4,"total_soal":5};
 	// count all game score range 0-5 for the star

@@ -663,8 +663,8 @@
 					},
 					{
 					 	"index":1,
-					 	"text_2":"Jarvis",
-					 	"text_2_position":"Max",
+					 	"text_2":"Max",
+					 	"text_2_position":"center",
 					 	"label_name_img":"",
 					 	"text":"\"Apa yang bisa membuat kalian termotivasi?\"",
 					 	"img_character":[0],
