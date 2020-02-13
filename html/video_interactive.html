@@ -18,6 +18,7 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
+		background: #000;
 	    top: 50%;
 	    left: 50%;
 	    transform: translate(-50%, -50%);
@@ -69,12 +70,12 @@
 	}
 </style>
 <div class="video_wrapper">
-	<video controls id="video" playsinline>
-		<source src="assets/video/video.mp4" type="video/mp4">
-	</video>
-	<!-- <video controlsList="nodownload" id="video" playsinline>
+	<!-- <video controls id="video" playsinline>
 		<source src="assets/video/video.mp4" type="video/mp4">
 	</video> -->
+	<video controlsList="nodownload" id="video" playsinline>
+		<source src="assets/video/video.mp4" type="video/mp4">
+	</video>
 	<div class="btn_play">
 		<img src="assets/image/slider/triangle.png">
 	</div>

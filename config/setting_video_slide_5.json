@@ -103,7 +103,7 @@
 		},
 		{
 			"time":194,
-			"gesture":"tap",
+			"gesture":"pinchin",
 			"image_gesture":"handZoomIn.gif",
 			"position":{
 				"width":"65%",
@@ -163,7 +163,7 @@
 			"position":{
 				"width":"33%",
 				"height":"30%",
-				"top":"42%",
+				"top":"49%",
 				"left":"0%"
 			}
 		},
