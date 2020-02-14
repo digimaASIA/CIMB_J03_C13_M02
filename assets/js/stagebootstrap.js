@@ -11,7 +11,7 @@ StageBootstrap.prototype.init = function(current_settings) {
 	$this.current_settings = current_settings;
 	$this.gamedata = game.scorm_helper.getSingleData('game_data');
 	console.log($this.gamedata);
-	$this.game_data = ($this.gamedata != undefined ? $this.gamedata : []);
+	$this.game_data = ($this.gamedata != undefined ? $this.gamedata : {});
 	$this.total_soal = 0;
 	$this.total_step = 0;
 	/*$this.gamedata = [];

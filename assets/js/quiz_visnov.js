@@ -13,6 +13,7 @@ quizVisnov.prototype.init = function(current_settings) {
     /*game data*/
     $this.current_settings = current_settings;
     $this.game_data = game.scorm_helper.getSingleData("game_data");
+    $this.game_data = ($this.game_data != undefined ? $this.game_data : {});
     console.log($this.current_settings);
     console.log($this.game_data);
     //Function set total soal current slide dan total answer true of this slide
@@ -126,7 +127,7 @@ quizVisnov.prototype.init = function(current_settings) {
 quizVisnov.prototype.stage_brankas = function(show_feedback_visnov = "", benar = "") {
     console.log("stageBrankas");
     var $this = this;
-    $this.game_data = (game.scorm_helper.getSingleData("game_data") != undefined ? game.scorm_helper.getSingleData("game_data") : []);
+    $this.game_data = (game.scorm_helper.getSingleData("game_data") != undefined ? game.scorm_helper.getSingleData("game_data") : {});
     // $this.completed_stage = $this.game_data["completed_stage"];
     // $this.failed_stage = $this.game_data["failed_stage"];
     let ldata = game.scorm_helper.getLastGame("game_slide_"+$this.current_settings["slide"]);
@@ -277,7 +278,7 @@ quizVisnov.prototype.mulai_game = function(){
 
     /*Function set progress bar*/
         let mode = 2; 
-        // $this.setProgresBar(mode);
+        game.setProgresBar();
     /*End function set progress bar*/
    
     // console.log(e['settings']['sound_loading_bar']);
@@ -1000,6 +1001,10 @@ quizVisnov.prototype.cekJawaban = function($clone,$type) {
     // console.log(ldata);
    
     $this.showHideSoal('hide');
+
+    let ldata = game.scorm_helper.getLastGame("game_slide_"+$this.current_settings["slide"]);
+    console.log(ldata);
+
     // jawabannya benar
     if($flag==0){
         var last_life = parseInt($this.life);
@@ -1011,8 +1016,6 @@ quizVisnov.prototype.cekJawaban = function($clone,$type) {
         $this.game_data["last_score"] = $this.last_score;
 
         //set answer game_slide
-        let ldata = game.scorm_helper.getLastGame("game_slide_"+$this.current_settings["slide"]);
-        console.log(ldata);
         if(ldata["answer"][$this.curr_soal] != undefined){
             if (ldata["answer"][$this.curr_soal] == 0) {
                 // ldata["answer"].splice($this.curr_soal, 1);
@@ -1065,7 +1068,12 @@ quizVisnov.prototype.cekJawaban = function($clone,$type) {
         //jika jawab salah lanjut ke soal berikutnya
         // if($this.tryagain_question_false_answer == false){
             //push jawaban salah ke array ldata
+        if(ldata["answer"][$this.curr_soal] != undefined){
+          
+        }else{
             game.scorm_helper.pushAnswer(0,response);
+        }
+
         // }
         game.audio.audioSalah.play();
         $(".alert").addClass("salah");

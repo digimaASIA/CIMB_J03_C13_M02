@@ -16,7 +16,7 @@ SliderScoring.prototype.init = function(current_settings) {
 
 	$this.game_data = game.scorm_helper.getSingleData("game_data");
 	// console.log($this.game_data);
-	$this.game_data = ($this.game_data != undefined ? $this.game_data : []);
+	$this.game_data = ($this.game_data != undefined ? $this.game_data : {});
 
 	$("#ulasan").html("");
 	$($this.list_slider).find(".button_wrapper").html("");

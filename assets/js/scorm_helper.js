@@ -142,7 +142,10 @@ ScormHelper.prototype.getSingleData = function(index) {
  */
 ScormHelper.prototype.setSingleData = function(index,value) {
 	var $this = this;
+	console.log(value);
+	console.log(index);
 	$this.ldata[index]=value;
+	console.log($this.ldata[index]);
 	$this.scorm.set("cmi.suspend_data", JSON.stringify($this.ldata));
 };
 
