@@ -70,7 +70,7 @@ var ScormHelper = function(){
 				// "total_soal_current_slide": 6,
 				"curr_soal": 0,
 				// "show_feedback_visnov": 1,
-				// "curr_soal_next": 5,
+				"curr_soal_next": 3,
 				// "last_score": 1,
 				// "total_answer_true": undefined,
 				"complete_stage":[1],

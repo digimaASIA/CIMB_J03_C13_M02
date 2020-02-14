@@ -72,11 +72,29 @@
         position: relative;
         padding: 7vh 0;
     }
+    .stage_b .num_text{
+        font-family: "Agency-Fb";
+        font-size: 23px;
+        font-weight: bold;
+        color: #7E8089;
+    }
     .stage_b:nth-child(odd){
         padding: 0 9.76% 4% 5.38%;
+        position: relative;
+    }
+    .stage_b:nth-child(odd) .num_text{
+        position: absolute;
+        top: 0;
+        left: 64%;
     }
     .stage_b:nth-child(even){
         padding: 0 5.38% 4% 9.76%;
+        position: relative;
+    }
+    .stage_b:nth-child(even) .num_text{
+        position: absolute;
+        top: 0;
+        left: 29%;
     }
     .stage_b.active img{
         /*background: yellow;*/
@@ -95,6 +113,15 @@
     }
     .stage_b.complete .img_unlock{
         display: block;
+    }
+
+    @media (max-width: 320px) and (max-height: 480px){
+        .stage_b:nth-child(odd){
+            padding-bottom: 0;
+        }
+        .stage_b:nth-child(even){
+            padding-bottom: 0;
+        }
     }
     <!-- End css stage_brankas -->
 </style>
@@ -229,26 +256,32 @@
                 <div class="stage_b col-xs-6" id="stage_b-1" index="1">
                     <img class="img_lock" src="assets/image/stage_brankas/handle-kiri-lock.png" style="width:100%;">
                     <img class="img_unlock" src="assets/image/stage_brankas/handle-kiri-unlock.png" style="width:100%;">
+                    <p class="num_text">1</p>
                 </div>
                 <div class="stage_b col-xs-6" id="stage_b-2" index="2">
                     <img class="img_lock" src="assets/image/stage_brankas/handle-kanan-lock.png" style="width:100%;">
                     <img class="img_unlock" src="assets/image/stage_brankas/handle-kanan-unlock.png" style="width:100%;">
+                    <p class="num_text">2</p>
                 </div>
                 <div class="stage_b col-xs-6" id="stage_b-3" index="3">
                     <img class="img_lock" src="assets/image/stage_brankas/handle-kiri-lock.png" style="width:100%;">
                     <img class="img_unlock" src="assets/image/stage_brankas/handle-kiri-unlock.png" style="width:100%;">
+                    <p class="num_text">3</p>
                 </div>
                 <div class="stage_b col-xs-6" id="stage_b-4" index="4">
                     <img class="img_lock" src="assets/image/stage_brankas/handle-kanan-lock.png" style="width:100%;">
                     <img class="img_unlock" src="assets/image/stage_brankas/handle-kanan-unlock.png" style="width:100%;">
+                    <p class="num_text">4</p>
                 </div>
                 <div class="stage_b col-xs-6" id="stage_b-5" index="5">
                     <img class="img_lock" src="assets/image/stage_brankas/handle-kiri-lock.png" style="width:100%;">
                     <img class="img_unlock" src="assets/image/stage_brankas/handle-kiri-unlock.png" style="width:100%;">
+                    <p class="num_text">5</p>
                 </div>
                 <div class="stage_b col-xs-6" id="stage_b-6" index="6">
                     <img class="img_lock" src="assets/image/stage_brankas/handle-kanan-lock.png" style="width:100%;">
                     <img class="img_unlock" src="assets/image/stage_brankas/handle-kanan-unlock.png" style="width:100%;">
+                    <p class="num_text">6</p>
                 </div>
             </div>
         </div>

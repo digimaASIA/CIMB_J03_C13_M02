@@ -6,6 +6,10 @@
     font-family: 'BebasBold';
     src: url(../plugins/font_bebas/Bebas_Bold.ttf);
 }
+@font-face {
+    font-family: 'Agency-Fb';
+    src: url(../fonts/agency-fb.ttf);
+}
 *{
 	margin: 0;
 	padding: 0;
