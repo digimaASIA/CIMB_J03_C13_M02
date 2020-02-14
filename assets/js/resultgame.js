@@ -56,7 +56,7 @@ ResultGame.prototype.setResult = function() {
 	if(Math.round(score) == game.max_score){
 		// set to win
 		// $(".slider-content").css({"background":"url('assets/image/result/bg-win.png') no-repeat center","background-size":"cover"});
-		game.audio.audioMenang.play();
+		//game.audio.audioMenang.play();
 		game.scorm_helper.setStatus("passed");
 		//$(".result_wrapper").css("background","url(assets/image/result/"+$this.win["background"]+") no-repeat center / cover");
 		$(".result_wrapper").find("source").attr("src","assets/video/result/"+$this.perfect["background"]);
@@ -109,7 +109,7 @@ ResultGame.prototype.setResult = function() {
 	else if(Math.round(score) >= game.min_score){
 		// set to win
 		// $(".slider-content").css({"background":"url('assets/image/result/bg-win.png') no-repeat center","background-size":"cover"});
-		game.audio.audioMenang.play();
+		//game.audio.audioMenang.play();
 		game.scorm_helper.setStatus("passed");
 		game.scorm_helper.setSingleData("restart",true);
 		//$(".result_wrapper").css("background","url(assets/image/result/"+$this.win["background"]+") no-repeat center / cover");
