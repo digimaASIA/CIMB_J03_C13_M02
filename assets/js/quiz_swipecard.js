@@ -29,7 +29,10 @@ QuizSwipeCard.prototype.setTutorial = function() {
 	$("#tutorial .tutorial.swipe_card").addClass("done");
   	$("#tutorial .tutorial.swipe_card").addClass("active");
   	$("#tutorial").modal({backdrop: 'static',keyboard: true,show: true});
-  	if(!$("#tutorial .tutorial.swipe_card").find("div").hasClass("slick-initialized")){
+  	if($("#tutorial .tutorial.swipe_card").find("div").hasClass("slick-initialized")){
+  		$("#tutorial .tutorial.swipe_card").find("div").first().slick("unslick");
+  	}
+  	/*if(!$("#tutorial .tutorial.swipe_card").find("div").hasClass("slick-initialized")){
 	  	$("#tutorial .tutorial.swipe_card").find("div").first().slick({
 	      	dots: true,
 	      	infinite: false,
@@ -37,7 +40,14 @@ QuizSwipeCard.prototype.setTutorial = function() {
 	      	prevArrow: false,
 	      	nextArrow: false
 	  	});
-  	}
+  	}*/
+  	$("#tutorial .tutorial.swipe_card").find("div").first().slick({
+      	dots: true,
+      	infinite: false,
+      	speed: 500,
+      	prevArrow: false,
+      	nextArrow: false
+  	});
   	$("#tutorial .tutorial.swipe_card").find(".start-game").click(function(e){
   		$(this).off();
   		$("#tutorial .tutorial.swipe_card").removeClass("active");
@@ -232,6 +242,7 @@ QuizSwipeCard.prototype.cekJawaban = function() {
 QuizSwipeCard.prototype.setFeedback = function() {
 	$this = this;
 	$currentSlide = 0;
+	$("#popupFeedbackCard").modal({backdrop: 'static',keyboard: true,show: true});
 	if($("#popupFeedbackCard .text_parent").hasClass("slick-initialized")){
 		$("#popupFeedbackCard .text_parent").slick("unslick");
 	}
@@ -247,10 +258,8 @@ QuizSwipeCard.prototype.setFeedback = function() {
 		dots: true,
         infinite: false,
         speed: 500,
-        arrows: false,
-        variableWidth: true
+        arrows: false
 	});
-	//$("#popupFeedbackCard .text_parent")[0].slick.refresh();
 	$("#popupFeedbackCard #video").find("source").attr("src","assets/image/swipe_card/"+$this.list_card[$this.list_question[$this.curr_soal]]["feedback"][0]["image"]);
 	$("#popupFeedbackCard #video")[0].load();
 	$("#popupFeedbackCard .text_parent").on("afterChange",function(event,slick,currentSlide,nextSlide){
@@ -260,7 +269,6 @@ QuizSwipeCard.prototype.setFeedback = function() {
 			$("#popupFeedbackCard #video")[0].load();
 		}
 	});
-	$("#popupFeedbackCard").modal({backdrop: 'static',keyboard: true,show: true});
 	$("#popupFeedbackCard .close_feedback").click(function(){
 		$(this).off();
 		$("#popupFeedbackCard").modal("hide");
@@ -308,7 +316,7 @@ QuizSwipeCard.prototype.setCompleteData = function($flag) {
 	}
 	$this.game_data["complete_stage"] = $this.game_data["complete_stage"]?$this.game_data["complete_stage"]:[];
 	$this.game_data["failed_stage"]  = $this.game_data["failed_stage"]?$this.game_data["failed_stage"]:[];
-	if($this.right == $this.list_card.length){
+	if($this.right >= $this.settings["min_right"]){
 		$this.game_data["complete_stage"].push($this.curr_step);
 	}else{
 		$this.game_data["failed_stage"].push($this.curr_step);
