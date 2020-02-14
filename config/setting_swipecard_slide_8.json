@@ -3,7 +3,8 @@
 		"life":3,
 		"duration":60,
 		"random":false,
-		"backslide":9
+		"backslide":9,
+		"min_right":5
 	},
 	"list_card":[
 		{
