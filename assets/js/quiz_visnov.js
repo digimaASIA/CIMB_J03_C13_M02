@@ -180,7 +180,7 @@ quizVisnov.prototype.stage_brankas = function(show_feedback_visnov = "", benar =
         }
 
         $this.setTutorial();
-
+        
         for (var i = 0; i < $this.question_datas.length; i++) {
             if($this.game_data["curr_soal_next"] == undefined){
                 if(i == 0){
@@ -2593,7 +2593,7 @@ quizVisnov.prototype.setVideo = function($clone = '', src, show_soal = '', index
     // console.log($this.video_path+src);
     $("#video").find("source").attr("src",$this.video_path+src);
     // console.log($(".img_video"));
-    $(".img_video").show();
+    // $(".img_video").show();
     $("#video").hide();
     $("#video")[0].load();
 
@@ -2612,7 +2612,7 @@ quizVisnov.prototype.setVideo = function($clone = '', src, show_soal = '', index
             }
         }
 
-        $(".img_video").hide();
+        // $(".img_video").hide();
         $("#video").show();
         $this.playVideo();
 
@@ -2731,14 +2731,14 @@ quizVisnov.prototype.setVideo_2 = function(src) {
     // console.log($this.video_path+src);
     $("#video").find("source").attr("src",$this.video_path+src);
     // console.log($(".img_video"));
-    $(".img_video").show();
+    // $(".img_video").show();
     $("#video").hide();
     $("#video")[0].load();
 
     game.showLoading();
     $("#video").on("canplay",function(e){
         game.hideLoading();
-        $(".img_video").hide();
+        // $(".img_video").hide();
         $("#video").show();
         $this.playVideo();
 
