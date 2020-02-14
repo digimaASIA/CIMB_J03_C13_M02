@@ -27,8 +27,9 @@ ResultGame.prototype.setResult = function() {
 	$("html").removeClass("ui-mobile");
 	/*comment by elim*/
 	if(game.scorm_helper.getSingleData("score") == undefined){
-		// var game_quiz = game.scorm_helper.getQuizResult(["game_slide_8","game_slide_9","game_slide_13","game_slide_15","game_slide_17","game_slide_19","game_slide_21","game_slide_23"]);
-		var game_quiz = {"score":6,"total_soal":6};
+		var game_quiz = game.scorm_helper.getQuizResult(["game_slide_8","game_slide_12"]);
+		console.log(game_quiz);
+		// var game_quiz = {"score":6,"total_soal":6};
 		// count all game score range 0-5 for the star
 		var score = parseInt(game_quiz["score"])/parseInt(game_quiz["total_soal"])*game.max_score;
 		/*end comment by elim*/

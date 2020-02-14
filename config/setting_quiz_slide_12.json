@@ -235,7 +235,7 @@
 					{
 						"title":"",
 						"image":"02-a.png",
-						"desc":"Segenap karyawan, staf, dan individu dalam perusahaan bersemangat dalam melakukan transformasi karena adanya keinginan untuk mewujudkan mimpi bersama (shared dream)."
+						"desc":"Segenap karyawan, staf, dan individu dalam perusahaan bersemangat dalam melakukan transformasi karena adanya keinginan untuk mewujudkan mimpi bersama (<i>shared dream</i>)."
 					},
 					{
 						"title":"",
@@ -352,7 +352,7 @@
 					{
 						"title":"",
 						"image":"03.png",
-						"desc":"Perusahaan perlu menggambarkan roadmap perjalanan transformasi yang jelas dan mudah dibaca serta dipahami, yang melibatkan seluruh pemangku kepentingan agar ada rasa memiliki. <br>Target pencapaian secara ruang lingkup, durasi, dan Indikator keberhasilan pencapaian target pada roadmap jelas terlihat dan dapat diukur"
+						"desc":"Perusahaan perlu menggambarkan roadmap perjalanan transformasi yang jelas dan mudah dibaca serta dipahami, yang melibatkan seluruh pemangku kepentingan agar ada rasa memiliki. <br>Target pencapaian secara ruang lingkup, durasi, dan indikator keberhasilan pencapaian target pada roadmap jelas terlihat dan dapat diukur"
 					}
 				]
 			},
@@ -432,7 +432,7 @@
 					 	"text_2":"Max",
 					 	"text_2_position":"center",
 					 	"label_name_img":"",
-					 	"text":"\"Jika perlu memberikan mentoring secara berkala. Jadi menurutmu apa bekal kita sebagai individu dalam sebuah organisasi untuk melakukan transformasi?\"",
+					 	"text":"\"Jika perlu memberikan mentoring secara berkala. Jadi menurutmu apa bekal kita sebagai individu untuk melakukan transformasi?\"",
 					 	"img_character":[1],
 					 	"audio":"",
 					 	"suara_batin":0,

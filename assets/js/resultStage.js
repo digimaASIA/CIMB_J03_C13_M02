@@ -72,7 +72,7 @@ ResultStage.prototype.setResult = function() {
 	if(Math.round(score) >= min_score_per_stage){
 		// set to win
 		// $(".slider-content").css({"background":"url('assets/image/result/bg-win.png') no-repeat center","background-size":"cover"});
-		//game.audio.audioNiceJob.play();
+		// game.audio.audioNiceJob.play();
 		// game.scorm_helper.setStatus("passed");
 
 		//set video

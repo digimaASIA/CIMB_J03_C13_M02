@@ -7,11 +7,7 @@
 			"type":"video",
 			"image":"MC_CIMB_3D_1313.02_VisNov_Opening_02_v.0.0.0.1.mp4",
 			"text":"Saya mencari agen-agen transformasi untuk bersama-sama berjuang melakukan transformasi digital di CIMB Niaga. Siapkah kalian menjadi the <i>Next Agent of Transformation</i>?",
-			"button":[
-				{
-					"text":"Next"
-				}
-			]
+			"image_click":true
 		}
 	]
 }
