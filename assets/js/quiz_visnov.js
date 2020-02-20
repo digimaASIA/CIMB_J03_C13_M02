@@ -180,7 +180,7 @@ quizVisnov.prototype.stage_brankas = function(show_feedback_visnov = "", benar =
         }
 
         $this.setTutorial();
-        
+
         for (var i = 0; i < $this.question_datas.length; i++) {
             if($this.game_data["curr_soal_next"] == undefined){
                 if(i == 0){

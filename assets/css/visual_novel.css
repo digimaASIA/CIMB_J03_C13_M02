@@ -17,7 +17,7 @@
 }
 
 .slider-content{
-    background: #fff;
+    background: url(assets/image/background/classroom.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom left;
